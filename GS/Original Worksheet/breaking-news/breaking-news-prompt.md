@@ -1,8 +1,20 @@
 # Breaking News Worksheet Creation Prompt
 
+## Data Source
+
+**Website:** https://breakingnewsenglish.com/simple-english-news.html
+
+### Steps to Fetch Content:
+
+1. **Navigate to the website** and browse the available articles
+2. **Select an article** of interest from the simple English news page
+3. **Get Level 0 content** - This is the easiest level, suitable for basic English learners
+4. **Extract the script** - Find and copy the full article text from Level 0
+5. **Use the script** to create a worksheet following the format below
+
 ## Instructions
 
-Create a worksheet based on the provided breaking news article with the following structure:
+Create a worksheet based on the extracted Level 0 breaking news article with the following structure:
 
 ---
 
@@ -230,6 +242,9 @@ Sample answer points students might include:
 ## Usage
 
 To use this prompt:
-1. Provide the breaking news article text
-2. Specify: "Create a worksheet based on this breaking news article using the breaking-news-prompt.md format"
-3. The worksheet and answer key will follow this consistent format
+1. Visit https://breakingnewsenglish.com/simple-english-news.html
+2. Select an article from the list
+3. Navigate to **Level 0** of that article (the easiest level)
+4. Copy the full article script/text from Level 0
+5. Provide the article text and specify: "Create a worksheet based on this breaking news article using the breaking-news-prompt.md format"
+6. The worksheet and answer key will follow this consistent format
