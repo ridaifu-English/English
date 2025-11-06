@@ -1,0 +1,174 @@
+{
+  "size_definitions": {
+    "height": { "sm": 35, "md": 40, "lg": 100, "xl": 150 },
+    "width": { "sm": "5%", "md": 150, "lg": "100%", "full": "100%" }
+  },
+  "sheet_settings": {
+    "title": "GS3BC 英語演習　2025-10-16",
+    "width": "90%",
+    "height": "auto",
+    "background_image": "test/marksheet-base.png"
+  },
+  "header_layout": {
+    "fields": [
+      { "label": "Class", "width": 80, "height": "sm" },
+      { "label": "No.", "width": 80, "height": "sm" },
+      { "label": "Name", "width": 200, "height": "sm" }
+    ],
+    "score_box": { "width": 90, "height": 60 }
+  },
+  "question_sections": [
+    {
+      "section_id": "1)",
+      "layout_type": "flex_row_layout",
+      "items": [
+        [
+          { "label": "A", "width": "20%", "height": "sm" },
+          { "label": "B", "width": "20%", "height": "sm" },
+          { "label": "C", "width": "20%", "height": "sm" },
+          { "label": "D", "width": "20%", "height": "sm" }
+        ]
+      ]
+    },
+    {
+      "section_id": "2)",
+      "layout_type": "flex_row_layout",
+      "items": [
+        [
+          { "label": "A", "width": "20%", "height": "sm" },
+          { "label": "B", "width": "20%", "height": "sm" },
+          { "label": "C", "width": "20%", "height": "sm" },
+          { "label": "D", "width": "20%", "height": "sm" }
+        ]
+      ]
+    },
+    {
+      "section_id": "3)",
+      "layout_type": "flex_row_layout",
+      "no_background": true,
+      "items": [
+        [
+          { "label": "A", "width": "25%", "height": "sm" }
+        ],
+        [
+          { "label": "B", "width": "30%", "height": "sm" },
+          { "label": "", "width": "30%", "height": "sm" }
+        ],
+        [
+          { "label": "C", "width": "40%", "height": "sm" },
+          { "label": "", "width": "40%", "height": "sm" }
+        ],
+        [
+          { "label": "D", "width": "30%", "height": "sm" },
+          { "label": "", "width": "30%", "height": "sm" },
+          { "label": "", "width": "30%", "height": "sm" }
+        ]
+      ]
+    },
+    {
+      "section_id": "4)",
+      "layout_type": "grid_layout",
+      "no_background": true,
+      "columns": 5,
+      "box_width": "md",
+      "box_height": "sm",
+      "start_number": 1,
+      "items": [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+    },
+    {
+      "section_id": "5A)",
+      "layout_type": "flex_row_layout",
+      "no_background": true,
+      "items": [
+        [
+          { "label": "①", "width": "15%", "height": "sm" },
+          { "label": "②", "width": "15%", "height": "sm" },
+          { "label": "③", "width": "15%", "height": "sm" },
+          { "label": "④", "width": "15%", "height": "sm" },
+          { "label": "⑤", "width": "15%", "height": "sm" },
+          { "label": "⑥", "width": "15%", "height": "sm" }
+        ]
+      ]
+    },
+    {
+      "section_id": "5)",
+      "layout_type": "flex_row_layout",
+      "items": [
+        [
+          { "label": "B", "width": "20%", "height": "sm" },
+          { "label": "C", "width": "20%", "height": "sm" },
+          { "label": "D", "width": "20%", "height": "sm" },
+          { "label": "E", "width": "20%", "height": "sm" }
+        ]
+      ]
+    },
+    {
+      "section_id": "5F)",
+      "layout_type": "large_box_layout",
+      "no_background": true,
+      "items": [
+        { "label": "F", "height": "md" }
+      ]
+    },
+    {
+      "section_id": "6A)",
+      "layout_type": "flex_row_layout",
+      "no_background": true,
+      "items": [
+        [
+          { "label": "①", "width": "40%", "height": "sm" },
+          { "label": "②", "width": "50%", "height": "sm" }
+        ]
+      ]
+    },
+    {
+      "section_id": "6)",
+      "layout_type": "flex_row_layout",
+      "items": [
+        [
+          { "label": "B", "width": "20%", "height": "sm" },
+          { "label": "C", "width": "20%", "height": "sm" },
+          { "label": "D", "width": "20%", "height": "sm" }
+        ]
+      ]
+    },
+    {
+      "section_id": "6E)",
+      "layout_type": "large_box_layout",
+      "no_background": true,
+      "items": [
+        { "label": "E", "height": "md" }
+      ]
+    },
+    {
+      "section_id": "7A)",
+      "layout_type": "large_box_layout",
+      "no_background": true,
+      "items": [
+        { "label": "(1)", "height": "md" },
+        { "label": "(2)", "height": "md" },
+        { "label": "(3)", "height": "md" },
+        { "label": "(4)", "height": "md" }
+      ]
+    },
+    {
+      "section_id": "7B)",
+      "layout_type": "large_box_layout",
+      "no_background": true,
+      "items": [
+        { "label": "B", "height": "lg" }
+      ]
+    },
+    {
+      "section_id": "8)",
+      "layout_type": "large_box_layout",
+      "no_background": true,
+      "items": [
+        { "label": "Question 1", "height": "xl" },
+        { "label": "Question 2", "height": "xl" },
+        { "label": "Question 3", "height": "xl" }
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,10 @@
+/* Verb slides (3-8) specific styles */
+.title {
+  font-size: 48px;
+}
+
+.content {
+  padding: 40px 80px;
+  justify-content: center;
+}
+

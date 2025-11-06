@@ -1,0 +1,185 @@
+/* Entrance Exam Styles - MS Gothic (Japanese) & Century (English) */
+
+/* Base font settings */
+body {
+    font-family: "Century", "Times New Roman", serif;
+    line-height: 1.8;
+    font-size: 12pt;
+    margin: 2cm;
+    color: #000000;
+}
+
+/* Japanese text styling - MS Gothic */
+.japanese, 
+[lang="ja"],
+.question-text,
+.vocabulary-notes,
+.instructions,
+.question-header,
+.choices {
+    font-family: "MS Gothic", "ＭＳ ゴシック", "Hiragino Kaku Gothic Pro", monospace;
+    font-weight: normal;
+}
+
+/* English story content - Century */
+.story-content,
+.english-text,
+.dialogue {
+    font-family: "Century", "Times New Roman", serif;
+    font-weight: normal;
+}
+
+/* Headers and titles */
+.exam-number {
+    font-family: "MS Gothic", "ＭＳ ゴシック", monospace;
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+.story-title {
+    font-family: "Century", serif;
+    font-weight: bold;
+    font-size: 14pt;
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Question sections */
+.question-header {
+    font-family: "MS Gothic", "ＭＳ ゴシック", monospace;
+    font-weight: bold;
+    font-size: 12pt;
+    margin-top: 15px;
+}
+
+.question-text {
+    font-family: "MS Gothic", "ＭＳ ゴシック", monospace;
+    font-size: 11pt;
+    margin-bottom: 10px;
+}
+
+/* Multiple choice options */
+.choices {
+    font-family: "MS Gothic", "ＭＳ ゴシック", monospace;
+    font-size: 11pt;
+    margin-left: 20px;
+}
+
+.choice-option {
+    font-family: "Century", serif;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+/* Dialogue boxes */
+.dialogue-box {
+    font-family: "Century", serif;
+    border: 2px solid #000000;
+    padding: 8px;
+    margin: 15px 0;
+    background-color: #ffffff;
+    display: inline-block;
+}
+
+/* Character names and dialogue */
+.character-name {
+    font-family: "Century", serif;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.dialogue-text {
+    font-family: "Century", serif;
+    font-weight: normal;
+}
+
+/* Blank spaces for answers */
+.blank-space {
+    font-family: "Century", serif;
+    background-color: #f0f0f0;
+    border: none;
+    border-bottom: 2px solid #000000;
+    padding: 2px 5px;
+    margin: 0 3px;
+}
+
+/* Vocabulary notes section */
+.vocabulary-notes {
+    font-family: "MS Gothic", "ＭＳ ゴシック", monospace;
+    font-size: 10pt;
+    margin-top: 20px;
+    border-top: 1px solid #000000;
+    padding-top: 10px;
+}
+
+.vocab-header {
+    font-family: "MS Gothic", "ＭＳ ゴシック", monospace;
+    font-weight: normal;
+}
+
+.vocab-item {
+    font-family: "Century", serif;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.vocab-translation {
+    font-family: "MS Gothic", "ＭＳ ゴシック", monospace;
+}
+
+/* Page numbers */
+.page-numbers {
+    font-family: "MS Gothic", "ＭＳ ゴシック", monospace;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 11pt;
+}
+
+/* Answer blanks */
+.answer-blank {
+    border: none;
+    border-bottom: 2px solid #000000;
+    width: 200px;
+    height: 20px;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.japanese-answer-blank {
+    border: 1px solid #000000;
+    width: 60px;
+    height: 25px;
+    display: inline-block;
+    margin: 0 3px;
+    text-align: center;
+}
+
+/* Print styles */
+@media print {
+    body {
+        margin: 1.5cm;
+        font-size: 11pt;
+    }
+    
+    .dialogue-box {
+        border: 2px solid #000000;
+        -webkit-print-color-adjust: exact;
+    }
+    
+    .page-break {
+        page-break-before: always;
+    }
+}
+
+/* Responsive design for digital viewing */
+@media screen and (max-width: 768px) {
+    body {
+        margin: 1cm;
+        font-size: 14pt;
+    }
+    
+    .choice-option {
+        display: block;
+        margin: 5px 0;
+    }
+}

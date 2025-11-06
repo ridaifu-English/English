@@ -1,0 +1,152 @@
+{
+    "size_definitions": {
+        "height": {
+            "sm": 35,
+            "md": 40,
+            "lg": 100,
+            "xl": 150
+        },
+        "width": {
+            "sm": "5%",
+            "md": 150,
+            "lg": "100%",
+            "full": "100%"
+        }
+    },
+    "sheet_settings": {
+        "title": "IB1A Logic and Expression Midterm",
+        "width": "90%",
+        "height": "auto"
+    },
+
+    "header_layout": {
+        "fields": [
+            { "label": "Class", "width": 80, "height": "sm" },
+            { "label": "No.", "width": 80, "height": "sm" },
+            { "label": "Name", "width": 200, "height": "sm" }
+        ],
+        "score_box": { "width": 80, "height": 60 }
+    },
+    "question_sections": [
+        {
+            "section_id": "1)",
+            "layout_type": "grid_layout",
+            "columns": 2,
+            "box_width": "50%",
+            "box_height": "sm",
+            "start_number": 1,
+            "end_number": 7
+        },
+        {
+            "section_id": "2)",
+            "layout_type": "grid_layout",
+            "columns": 3,
+            "box_width": "md",
+            "box_height": "sm",
+            "start_number": 1,
+            "end_number": 7
+        },
+        {
+            "section_id": "3)",
+            "layout_type": "flex_row_layout",
+            "items": [
+                [
+                    { "label": "3A (1)", "width": "33.3%", "height": "sm" },
+                    { "label": "3A (2)", "width": "33.3%", "height": "sm" },
+                    { "label": "3A (3)", "width": "33.3%", "height": "sm" }
+                ],
+                [
+                    { "label": "3B (1)", "width": "33.3%", "height": "sm" },
+                    { "label": "3B (2)", "width": "33.3%", "height": "sm" },
+                    { "label": "3B (3)", "width": "33.3%", "height": "sm" }
+                ]
+            ]
+        },
+        {
+            "section_id": "4)",
+            "layout_type": "flex_row_layout",
+            "items": [
+                [
+                    { "label": "4A (1)", "width": "50%", "height": "sm" },
+                    { "label": "4A (2)", "width": "50%", "height": "sm" }
+                ],
+                [
+                    { "label": "4B (1)", "width": "33.3%", "height": "sm" },
+                    { "label": "4B (2)", "width": "33.3%", "height": "sm" },
+                    { "label": "4B (3)", "width": "33.3%", "height": "sm" }
+                ]
+            ]
+        },
+        {
+            "section_id": "5)",
+            "layout_type": "flex_row_layout",
+            "items": [
+                [
+                    { "label": "5-1 (a)", "width": "50%", "height": "sm" },
+                    { "label": "5-1 (b)", "width": "50%", "height": "sm" }
+                ],
+                [
+                    { "label": "5-2 (a)", "width": "50%", "height": "sm" },
+                    { "label": "5-2 (b)", "width": "50%", "height": "sm" }
+                ],
+                [
+                    { "label": "5-3 (a)", "width": "50%", "height": "sm" }
+                ]
+            ]
+        },
+        {
+            "section_id": "6)",
+            "layout_type": "flex_row_layout",
+            "items": [
+                [
+                    { "label": "6-1 (a)", "width": "50%", "height": "sm" },
+                    { "label": "6-1 (b)", "width": "50%", "height": "sm" }
+                ],
+                [
+                    { "label": "6-2 (a)", "width": "100%", "height": "sm" }
+                ],
+                [
+                    { "label": "6-3 (a)", "width": "100%", "height": "sm" }
+                ]
+            ]
+        },
+        {
+            "section_id": "7)",
+            "layout_type": "flex_row_layout",
+            "items": [
+                [
+                    { "label": "(1)", "width": "25%", "height": "sm" },
+                    { "label": "(2)", "width": "25%", "height": "sm" },
+                    { "label": "(3)", "width": "25%", "height": "sm" },
+                    { "label": "(4)", "width": "25%", "height": "sm" }
+                ],
+                [
+                    { "label": "7B Order", "width": "100%", "height": "sm" }
+                ],
+                [
+                    { "label": "7C (1)", "width": "50%", "height": "sm" },
+                    { "label": "7C (2)", "width": "50%", "height": "sm" }
+                ]
+            ]
+        },
+        {
+            "section_id": "",
+            "layout_type": "large_box_layout",
+            "no_background": true,
+            "items": [
+                { "label": "7D Body Paragraph", "height": "xl" }
+            ]
+        },
+        {
+            "section_id": "8)",
+            "layout_type": "large_box_layout",
+            "no_background": true,
+            "items": [
+                { "label": "1)", "height": "xl" },
+                { "label": "2)", "height": "xl" }
+            ]
+        }
+    ]
+}
+
+

@@ -1,0 +1,21 @@
+{
+  "name": "slide-exporter",
+  "version": "1.0.0",
+  "description": "Export HTML slides to PowerPoint format",
+  "main": "export-to-pptx.js",
+  "scripts": {
+    "export": "node export-to-pptx.js"
+  },
+  "keywords": [
+    "slides",
+    "powerpoint",
+    "pptx",
+    "export"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "pptxgenjs": "^3.12.0",
+    "puppeteer": "^21.11.0"
+  }
+}

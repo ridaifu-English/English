@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Verb 4: PREVENT</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: "Noto Sans JP", sans-serif;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #1a1a1a;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+      .slide {
+        width: 1280px;
+        height: 720px;
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        transition: transform 0.3s ease;
+      }
+      body.presentation-mode {
+        background-color: #000;
+      }
+      .header {
+        background-color: #4a7cbc;
+        padding: 20px 40px;
+        color: white;
+      }
+      .title {
+        font-size: 48px;
+        font-weight: 700;
+      }
+      .content {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 40px 80px;
+      }
+      .pattern-box {
+        background-color: #e3f2fd;
+        border-left: 8px solid #2196f3;
+        padding: 25px 30px;
+        margin-bottom: 40px;
+        border-radius: 8px;
+      }
+      .pattern-title {
+        font-size: 28px;
+        font-weight: 700;
+        color: #1565c0;
+        margin-bottom: 15px;
+      }
+      .pattern-text {
+        font-size: 32px;
+        font-weight: 500;
+        line-height: 1.6;
+      }
+      .s { color: #e91e63; font-weight: 700; }
+      .v { color: #4caf50; font-weight: 700; }
+      .o { color: #ff9800; font-weight: 700; }
+      .examples {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+      }
+      .example {
+        background-color: #f5f5f5;
+        border-radius: 10px;
+        padding: 25px;
+      }
+      .example-english {
+        font-size: 28px;
+        font-weight: 500;
+        margin-bottom: 12px;
+      }
+      .example-japanese {
+        font-size: 22px;
+        color: #666;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="slide">
+      <div class="header">
+        <h1 class="title">Verb 4: PREVENT</h1>
+      </div>
+      <div class="content">
+        <div class="pattern-box">
+          <p class="pattern-title">Pattern:</p>
+          <p class="pattern-text">
+            <span class="s">S (原因・障害)</span> + <span class="v">prevent</span> + <span class="o">O (人)</span> + from ~ing
+          </p>
+        </div>
+        <div class="examples">
+          <div class="example">
+            <p class="example-english">
+              <span class="s">The rain</span> <span class="v">prevented</span> <span class="o">us</span> from going out.
+            </p>
+            <p class="example-japanese">→ 雨のせいで外出できなかった。</p>
+          </div>
+          <div class="example">
+            <p class="example-english">
+              <span class="s">His injury</span> <span class="v">prevented</span> <span class="o">him</span> from playing soccer.
+            </p>
+            <p class="example-japanese">→ 怪我のせいで彼はサッカーができなかった。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../../common/presentation.js"></script>
+  </body>
+</html>

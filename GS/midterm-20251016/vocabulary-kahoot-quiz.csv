@@ -1,0 +1,29 @@
+,,,,,,,
+,Quiz template,,,,,,
+,"Add questions, at least two answer alternatives, time limit and choose correct answers (at least one). Have fun creating your awesome quiz!        ",,,,,,
+,"Remember: questions have a limit of 95 characters and answers can have 60 characters max. Text will turn red in Excel or Google Docs if you exceed this limit. If several answers are correct, separate them with a comma.  ",,,,,,
+,See an example question below (don't forget to overwrite this with your first question!) ,,,,,,
+,"And remember,  if you're not using Excel you need to export to .xlsx format before you upload to Kahoot!",,,,,,
+,,,,,,,
+,Question - max 95 characters,Answer 1 - max 60 characters,Answer 2 - max 60 characters,Answer 3 - max 60 characters,Answer 4 - max 60 characters,"Time limit (sec) - 5,10,20,30,60,90 or 120 secs",Correct answer(s) - choose at least one
+1,waste,廃棄物,財布,天気,遅刻,20,1
+2,recycle,リサイクルする,料理する,勉強する,旅行する,20,1
+3,day trip,日帰り旅行,飛行機,ホテル,お土産,20,1
+4,budget,予算,宿題,教科書,時間割,20,1
+5,get up,起きる,座る,走る,泳ぐ,20,1
+6,sightseeing,観光,買い物,散歩,食事,20,1
+7,leftovers,残り物,朝ご飯,お弁当,軽食,20,1
+8,hangry,空腹でイライラした,嬉しい,悲しい,眠い,20,1
+9,shop around,価格を比べる,買い物に行く,店を開く,商品を探す,20,1
+10,oversleep,寝過ごす,早起きする,昼寝する,寝る,20,1
+11,,,,,,,
+12,,,,,,,
+13,,,,,,,
+14,,,,,,,
+15,,,,,,,
+16,,,,,,,
+17,,,,,,,
+18,,,,,,,
+19,,,,,,,
+20,,,,,,,
+

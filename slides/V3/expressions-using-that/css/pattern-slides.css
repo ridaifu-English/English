@@ -1,0 +1,309 @@
+/* Pattern slides (3-8) specific styles */
+.pattern-box {
+  background-color: #e3f2fd;
+  border-left: 8px solid #2196f3;
+  padding: 20px 25px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+}
+
+.pattern-title {
+  font-size: 26px;
+  font-weight: 700;
+  color: #1565c0;
+  margin-bottom: 12px;
+}
+
+.pattern-text {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 8px;
+}
+
+.pattern-meaning {
+  font-size: 20px;
+  color: #666;
+  margin-top: 8px;
+}
+
+.pattern-note {
+  font-size: 18px;
+  color: #ff5722;
+  margin-top: 6px;
+  font-weight: 500;
+}
+
+.examples {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.example {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.example-label {
+  font-size: 18px;
+  font-weight: 700;
+  color: #1976d2;
+  margin-bottom: 8px;
+}
+
+.example-english {
+  font-size: 26px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  line-height: 1.4;
+}
+
+.example-japanese {
+  font-size: 20px;
+  color: #666;
+  margin-bottom: 6px;
+}
+
+.example-note {
+  font-size: 17px;
+  color: #999;
+  font-style: italic;
+  margin-top: 6px;
+}
+
+/* Comparison box for explaining differences */
+.comparison-box {
+  background-color: #fff3e0;
+  border-left: 8px solid #ff9800;
+  padding: 20px 25px;
+  margin-top: 30px;
+  border-radius: 8px;
+}
+
+.comparison-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #e65100;
+  margin-bottom: 15px;
+}
+
+.comparison-content {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.comparison-item {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+.comparison-label {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1565c0;
+  margin-bottom: 8px;
+}
+
+.comparison-text {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 5px;
+  line-height: 1.6;
+}
+
+/* Category grid for noun classifications (slide8-2) */
+.category-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.category-box {
+  background-color: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.category-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.category-number {
+  background-color: white;
+  color: #667eea;
+  font-size: 20px;
+  font-weight: 700;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.category-title {
+  font-size: 22px;
+  font-weight: 700;
+  color: white;
+}
+
+.category-content {
+  padding: 20px;
+}
+
+.noun-list {
+  font-size: 17px;
+  line-height: 1.8;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.category-example {
+  background-color: #f5f5f5;
+  padding: 12px;
+  border-radius: 6px;
+  border-left: 4px solid #667eea;
+}
+
+.example-english-small {
+  font-size: 19px;
+  font-weight: 500;
+  margin-bottom: 6px;
+  line-height: 1.4;
+}
+
+.example-japanese-small {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 0;
+}
+
+.example-note-small {
+  font-size: 14px;
+  color: #999;
+  font-style: italic;
+  margin-top: 4px;
+  margin-bottom: 2px;
+}
+
+.warning-box {
+  background-color: #fff3e0;
+  border-left: 6px solid #ff9800;
+  padding: 15px 20px;
+  border-radius: 6px;
+  margin-top: 20px;
+}
+
+.warning-text {
+  font-size: 17px;
+  color: #e65100;
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* Comparison section for slide8-3 */
+.comparison-section {
+  margin-bottom: 20px;
+}
+
+.comparison-title-main {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1565c0;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.comparison-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.comparison-column {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.comparison-header {
+  font-size: 22px;
+  font-weight: 700;
+  color: white;
+  padding: 12px;
+  border-radius: 6px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.comparison-header.appositive {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.comparison-header.relative {
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+}
+
+.comparison-point {
+  margin-bottom: 12px;
+}
+
+.point-label {
+  font-size: 16px;
+  font-weight: 700;
+  color: #1565c0;
+  margin-bottom: 4px;
+}
+
+.point-text {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.example-compact {
+  background-color: white;
+  padding: 12px;
+  border-radius: 6px;
+  margin-top: 12px;
+}
+
+.underline {
+  text-decoration: underline;
+  text-decoration-color: #667eea;
+  text-decoration-thickness: 2px;
+}
+
+.tip-box {
+  background: linear-gradient(135deg, #e3f2fd 0%, #fff3e0 100%);
+  border-left: 6px solid #2196f3;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.tip-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1565c0;
+  margin-bottom: 10px;
+}
+
+.tip-text {
+  font-size: 17px;
+  color: #333;
+  margin-bottom: 6px;
+  line-height: 1.6;
+}
+

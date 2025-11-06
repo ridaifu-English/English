@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Compare ②: Medicine (原因を主語に)</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: "Noto Sans JP", sans-serif;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .slide {
+        width: 1280px;
+        min-height: 720px;
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+      }
+      .header {
+        background-color: #4a7cbc;
+        padding: 20px 40px;
+        color: white;
+      }
+      .title {
+        font-size: 42px;
+        font-weight: 700;
+      }
+      .content {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        padding: 20px 40px;
+      }
+      .compare-container {
+        display: flex;
+        justify-content: space-between;
+        height: 100%;
+        margin-top: 20px;
+      }
+      .compare-column {
+        width: 48%;
+        padding: 20px;
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+      }
+      .column-left {
+        background-color: #f0f4f8;
+        border: 2px solid #c2d1e3;
+      }
+      .column-right {
+        background-color: #e8f5e9;
+        border: 2px solid #b8ddc0;
+      }
+      .column-header {
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+        border-bottom: 2px dashed #ccc;
+        display: flex;
+        align-items: center;
+      }
+      .column-header i {
+        margin-right: 10px;
+        font-size: 28px;
+      }
+      .column-left .column-header {
+        color: #3f51b5;
+      }
+      .column-right .column-header {
+        color: #4caf50;
+      }
+      .english-sentence {
+        font-size: 26px;
+        font-weight: 500;
+        margin-bottom: 15px;
+        padding: 15px;
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      }
+      .japanese-translation {
+        font-size: 20px;
+        margin-bottom: 30px;
+        padding: 0 15px;
+      }
+      .nuance {
+        background-color: rgba(255, 255, 255, 0.7);
+        padding: 15px;
+        border-radius: 8px;
+        border-left: 4px solid;
+        margin-top: auto;
+      }
+      .column-left .nuance {
+        border-left-color: #3f51b5;
+      }
+      .column-right .nuance {
+        border-left-color: #4caf50;
+      }
+      .nuance-title {
+        font-size: 18px;
+        font-weight: 700;
+        margin-bottom: 8px;
+        color: #555;
+      }
+      .nuance-content {
+        font-size: 18px;
+        line-height: 1.5;
+      }
+      .highlight {
+        font-weight: 700;
+        display: inline-block;
+        padding: 0 2px;
+      }
+      .column-left .highlight {
+        color: #3f51b5;
+      }
+      .column-right .highlight {
+        color: #4caf50;
+      }
+      .arrow-container {
+        position: absolute;
+        top: 45%;
+        left: 100%;
+        transform: translateX(-50%) translateY(-50%);
+        z-index: 2;
+      }
+      .arrow {
+        font-size: 36px;
+        color: #ff9800;
+      }
+      .bottom-note {
+        margin-top: 20px;
+        background-color: #fff3e0;
+        padding: 15px;
+        border-radius: 8px;
+        border-left: 4px solid #ff9800;
+      }
+      .bottom-note p {
+        font-size: 18px;
+        line-height: 1.5;
+      }
+      .badge {
+        position: absolute;
+        top: -15px;
+        right: 20px;
+        padding: 5px 15px;
+        background-color: #ff5722;
+        color: white;
+        border-radius: 20px;
+        font-size: 16px;
+        font-weight: 500;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="slide">
+      <div class="header">
+        <h1 class="title">Compare ②: Medicine (原因を主語に)</h1>
+      </div>
+      <div class="content">
+        <div class="compare-container">
+          <div class="compare-column column-left">
+            <div class="badge">普通の文章</div>
+            <div class="column-header">
+              <i data-lucide="user"></i>
+              <p>「原因」を節で表現</p>
+            </div>
+            <div class="english-sentence">
+              <p>
+                <span class="highlight">Because I took the medicine</span>, I
+                feel drowsy.
+              </p>
+            </div>
+            <div class="japanese-translation">
+              <p>薬を飲んだから、眠くなった。</p>
+            </div>
+            <div class="nuance">
+              <div class="nuance-title">
+                <i data-lucide="lightbulb"></i>
+                <span>ニュアンス:</span>
+              </div>
+              <div class="nuance-content">
+                <p>
+                  原因が<span class="highlight">節（Because...）</span
+                  >で表現され、文章が長くなりがち。
+                </p>
+              </div>
+            </div>
+            <div class="arrow-container">
+              <div class="arrow">
+                <i data-lucide="arrow-right"></i>
+              </div>
+            </div>
+          </div>
+          <div class="compare-column column-right">
+            <div class="badge">無生物主語</div>
+            <div class="column-header">
+              <i data-lucide="pill"></i>
+              <p>原因を主語に</p>
+            </div>
+            <div class="english-sentence">
+              <p><span class="highlight">The medicine</span> made me drowsy.</p>
+            </div>
+            <div class="japanese-translation">
+              <p>薬のせいで眠くなった。</p>
+            </div>
+            <div class="nuance">
+              <div class="nuance-title">
+                <i data-lucide="lightbulb"></i>
+                <span>ニュアンス:</span>
+              </div>
+              <div class="nuance-content">
+                <p>
+                  <span class="highlight">原因（medicine）を主語</span
+                  >にして、英語らしく簡潔に表現。
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bottom-note">
+          <p>
+            <i data-lucide="check-circle" style="color: #ff9800"></i>
+            <strong>ポイント:</strong>
+            無生物主語を使うと、「原因」を主語にして簡潔に表現できます。「〜のせいで」「〜のおかげで」などの意訳をするとわかりやすいです！
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="../../common/presentation.js"></script>
+  </body>
+</html>

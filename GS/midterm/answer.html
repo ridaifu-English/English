@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>解答用紙</title>
+    <style>
+        body {
+            font-family: 'Hiragino Kaku Gothic ProN', Meiryo, 'MS Gothic', sans-serif;
+            margin: 0;
+            padding: 0;
+            font-size: 16pt;
+            line-height: 1.3;
+            color: #333;
+            background-color: #fff;
+        }
+
+        .answer-sheet {
+            max-width: 100%;
+            margin: 8mm auto;
+            border: 1px solid #ccc;
+            padding: 8mm;
+            background-color: #fff;
+            box-shadow: none;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 0;
+            margin-bottom: 16px;
+            font-size: 24pt;
+            color: #333;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 8px;
+        }
+
+        h2 {
+            font-size: 20pt;
+            margin-top: 12px;
+            margin-bottom: 8px;
+            border-left: 4px solid #007bff;
+            padding-left: 10px;
+            color: #0056b3;
+        }
+        h2.first-in-block {
+            margin-top: 0;
+        }
+
+        .question-section {
+            margin-bottom: 16px; /* Default bottom margin for sections */
+            page-break-inside: avoid;
+        }
+
+        /* Container for Q1 & Q2 row */
+        .top-row-container {
+            /* Was: display: flex; flex-wrap: nowrap; gap: 16px; */
+            /* Now it's a simple block wrapper for q1q2-combined-column */
+            margin-bottom: 16px;
+        }
+
+        .q1q2-combined-column { /* Container for Q1 and Q2, side-by-side */
+            /* Was: flex: 1 1 48%; */
+            display: flex;
+            gap: 10px; /* Gap between Q1 and Q2 tables */
+        }
+        .q1q2-combined-column > .question-section {
+            flex: 1; /* Q1 and Q2 share space equally */
+            margin-bottom: 0; /* Handled by parent .top-row-container */
+        }
+
+        /* New styles for 問3 two-column layout */
+        .q3-columns-container {
+            display: flex;
+            gap: 16px;
+            margin-bottom: 16px;
+        }
+        .q3-left-column, .q3-right-column {
+            flex: 1;
+            min-width: 0; /* Allow shrinking */
+        }
+
+        .q3-part1-column > .question-section {
+             margin-bottom: 0; /* Handled by parent .three-column-row */
+        }
+        /* New container for Q4, Q5 side-by-side (was Q3P1, Q4, Q5) */
+        .two-column-row { /* Renamed from .three-column-row */
+            display: flex;
+            flex-wrap: nowrap;
+            gap: 16px;
+            margin-bottom: 16px;
+        }
+
+        .two-column-row > .question-section { /* Was .three-column-row > .q3-part1-column, .three-column-row > .question-section */
+            flex: 1;
+            min-width: 0; /* Allow shrinking */
+            margin-bottom: 0; /* Individual sections here don't need margin, row provides it */
+        }
+
+        .q2-split-table-container {
+            display: flex;
+            gap: 10px;
+            width: 100%;
+        }
+        .q2-split-table-container > .q-table {
+            flex: 1;
+        }
+
+        .q-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 8px;
+        }
+
+        .q-table th, .q-table td {
+            border: 1px solid #333;
+            padding: 2px 4px;
+            text-align: center;
+            vertical-align: middle;
+            font-size: 14pt;
+        }
+
+        .q-table th {
+            background-color: #e9ecef;
+            font-weight: bold;
+        }
+        .q-table th.q-num-header { width: 56px; }
+        /* .q-table th.q-ans-header { } */
+
+
+        .q-table td.q-num-cell {
+            font-weight: bold;
+            width: 56px;
+            background-color: #f8f9fa;
+        }
+
+        .single-answer-cell {
+            min-width: 60px;
+            height: 40px;
+            box-sizing: border-box;
+            background-color: #fff;
+            font-size: 11pt; /* Adjusted for potentially longer placeholder text */
+            word-wrap: break-word; /* Ensure placeholder text wraps */
+        }
+        .fill-word-table td.answer-cell-word {
+            min-width: 120px;
+            height: 40px;
+            background-color: #fff;
+        }
+
+        .textbook-question-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 6px;
+            padding: 4px;
+            border: 1px solid #e0e0e0;
+            border-radius: 4px;
+            background-color: #fdfdfd;
+            page-break-inside: avoid;
+        }
+        .textbook-q-label {
+            font-weight: bold;
+            min-width: 50px;
+            margin-right: 8px;
+            padding-top: 2px;
+            font-size: 14pt;
+        }
+        .textbook-q-parts {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 2px;
+        }
+        .textbook-sub-q-label {
+            margin-left: 2px;
+            margin-right: 2px;
+            font-size: 14pt;
+        }
+        .answer-box-small {
+            border: 1px solid #666;
+            min-width: 100px;
+            height: 40px;
+            padding: 2px;
+            box-sizing: border-box;
+            background-color: #fff;
+            font-size: 11pt; /* Adjusted for placeholder */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .textbook-options {
+            display: flex;
+            gap: 8px;
+            margin-top: 2px;
+        }
+        .textbook-option-cell {
+            border: 1px solid #333;
+            width: 44px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            background-color: #fff;
+            font-size: 14pt;
+        }
+        .textbook-question-item .answer-area-large {
+             min-height: 50px;
+             flex-grow: 1;
+             padding: 4px;
+             font-size: 14pt;
+             border: 1px solid #bbb; /* Added border for clarity */
+             background-color: #fff;
+             display: flex; /* For centering placeholder if needed */
+             align-items: center; /* For centering placeholder if needed */
+             /* justify-content: center; For centering placeholder if needed */
+        }
+
+        .free-response-section { /* For Q6 */
+            display: flex;
+            flex-direction: column;
+            gap: 20px; /* Increased from 12px */
+        }
+        .free-response-item { /* For Q6 */
+            display: flex;
+            align-items: flex-start;
+            page-break-inside: avoid;
+        }
+        .free-response-q-number { /* For Q6 */
+            font-weight: bold;
+            border: 1px solid #333;
+            padding: 8px 12px;
+            min-width: 60px;
+            height: 50px; /* Increased from 40px */
+            box-sizing: border-box;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #f8f9fa;
+            margin-right: 16px; /* Increased from 10px */
+            font-size: 16pt; /* Increased from 14pt */
+        }
+        .answer-area-large.q6-answer { /* For Q6 */
+            flex-grow: 1;
+            border: 1px solid #333;
+            min-height: 120px; /* Doubled from 60px */
+            padding: 10px; /* Increased from 6px */
+            box-sizing: border-box;
+            background-color: #fff;
+            font-size: 12pt; /* Adjusted for placeholder */
+        }
+
+        hr {
+            margin: 8px 0;
+            border: 0;
+            border-top: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+
+<div class="answer-sheet">
+    <h1>クラス:_____ 　番号:____ 　名前:____________</h1>
+
+    <!-- Row 1: Q1 and Q2, side-by-side -->
+    <div class="top-row-container">
+        <div class="q1q2-combined-column">
+            <!-- 問1: Listening -->
+            <section class="question-section">
+                <h2 class="first-in-block">問1</h2>
+                <table class="q-table">
+                    <thead><tr><th class="q-num-header">番号</th><th class="q-ans-header">答え</th></tr></thead>
+                    <tbody>
+                        <tr><td class="q-num-cell">(1)</td><td class="single-answer-cell"> 4 </td></tr>
+                        <tr><td class="q-num-cell">(2)</td><td class="single-answer-cell"> 4 </td></tr>
+                        <tr><td class="q-num-cell">(3)</td><td class="single-answer-cell"> 2 </td></tr>
+                        <tr><td class="q-num-cell">(4)</td><td class="single-answer-cell"> 1 </td></tr>
+                        <tr><td class="q-num-cell">(5)</td><td class="single-answer-cell"> 4 </td></tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <!-- 問2: Grammar -->
+            <section class="question-section">
+                <h2 class="first-in-block">問2</h2>
+                <div class="q2-split-table-container">
+                    <table class="q-table">
+                        <thead><tr><th class="q-num-header">番号</th><th class="q-ans-header">答え</th></tr></thead>
+                        <tbody>
+                            <tr><td class="q-num-cell">(1)</td><td class="single-answer-cell"> 1 </td></tr>
+                            <tr><td class="q-num-cell">(2)</td><td class="single-answer-cell"> 2 </td></tr>
+                            <tr><td class="q-num-cell">(3)</td><td class="single-answer-cell"> 1 </td></tr>
+                            <tr><td class="q-num-cell">(4)</td><td class="single-answer-cell"> 2 </td></tr>
+                            <tr><td class="q-num-cell">(5)</td><td class="single-answer-cell"> 3 </td></tr>
+                            <tr><td class="q-num-cell">(6)</td><td class="single-answer-cell"> 2 </td></tr>
+                            <tr><td class="q-num-cell">(7)</td><td class="single-answer-cell"> 3 </td></tr>
+                            <tr><td class="q-num-cell">(8)</td><td class="single-answer-cell"> 3 </td></tr>
+                        </tbody>
+                    </table>
+                    <table class="q-table">
+                        <thead><tr><th class="q-num-header">番号</th><th class="q-ans-header">答え</th></tr></thead>
+                        <tbody>
+                            <tr><td class="q-num-cell">(9)</td><td class="single-answer-cell"> 3 </td></tr>
+                            <tr><td class="q-num-cell">(10)</td><td class="single-answer-cell"> 4 </td></tr>
+                            <tr><td class="q-num-cell">(11)</td><td class="single-answer-cell"> 1 </td></tr>
+                            <tr><td class="q-num-cell">(12)</td><td class="single-answer-cell"> 4 </td></tr>
+                            <tr><td class="q-num-cell">(13)</td><td class="single-answer-cell"> 4 </td></tr>
+                            <tr><td class="q-num-cell">(14)</td><td class="single-answer-cell"> 2 </td></tr>
+                            <tr><td class="q-num-cell">(15)</td><td class="single-answer-cell"> 3 </td></tr>
+                             <tr><td class="q-num-cell" style="border:none; background:none;"> </td><td style="border:none; background:none;"> </td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </div> <!-- End of q1q2-combined-column -->
+    </div> <!-- End of top-row-container -->
+
+    <!-- 問3: Split into two columns -->
+    <div class="q3-columns-container">
+        <!-- Left column: Questions 1-8 -->
+        <div class="q3-left-column">
+            <section class="question-section" id="q3-part1">
+                <h2 class="first-in-block">問3</h2>
+                <div class="textbook-question-item">
+                    <div class="textbook-q-label">(1)</div>
+                    <div class="textbook-q-parts">
+                        <span class="textbook-sub-q-label">①</span><div class="answer-box-small"> without </div>
+                        <span class="textbook-sub-q-label">②</span><div class="answer-box-small"> for </div>
+                        <span class="textbook-sub-q-label">③</span><div class="answer-box-small"> by </div>
+                    </div>
+                </div>
+                <div class="textbook-question-item">
+                    <div class="textbook-q-label">(2)</div>
+                    <div class="textbook-question-item answer-area-large">環境に良いから。</div>
+                </div>
+                <div class="textbook-question-item">
+                    <div class="textbook-q-label">(3)</div>
+                    <div class="textbook-question-item answer-area-large">建物の冷却によるエアコン使用抑制と、植物によるCO₂吸収。</div>
+                </div>
+                <div class="textbook-question-item">
+                    <div class="textbook-q-label">(4)</div>
+                    <div class="textbook-question-item answer-area-large">Norway and Japan.</div>
+                </div>
+                <hr>
+                <div class="textbook-question-item">
+                    <div class="textbook-q-label">(5)</div>
+                    <div class="textbook-q-parts">
+                        <span class="textbook-sub-q-label">①</span><div class="answer-box-small"> unique </div>
+                        <span class="textbook-sub-q-label">②</span><div class="answer-box-small"> fifteen times </div>
+                        <span class="textbook-sub-q-label">③</span><div class="answer-box-small"> poor soils </div>
+                    </div>
+                </div>
+                <div class="textbook-question-item">
+                    <div class="textbook-q-label">(6)</div>
+                    <div class="textbook-question-item answer-area-large">Russia</div>
+                </div>
+                <div class="textbook-question-item">
+                    <div class="textbook-q-label">(7)</div>
+                    <div class="textbook-question-item answer-area-large">栄養が豊富で、早く育つこと。</div>
+                    </div>
+                </div>
+                <div class="textbook-question-item">
+                    <div class="textbook-q-label">(8)</div>
+                    <div class="textbook-options">
+                        <div class="textbook-option-cell" style="background-color: #90EE90; font-weight: bold;">A</div>
+                        <div class="textbook-option-cell">B</div>
+                        <div class="textbook-option-cell">C</div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        
+        <!-- Right column: Questions 9-17 -->
+        <div class="q3-right-column">
+            <section class="question-section" id="q3-part2">
+                <div class="textbook-question-item">
+                    <div class="textbook-q-label">(9)</div>
+                    <div class="textbook-question-item answer-area-large">As a dish called kasha, similar to Japanese rice porridge.</div>
+                </div>
+                <div class="textbook-question-item">
+                    <div class="textbook-q-label">(10)</div>
+                    <div class="textbook-question-item answer-area-large">For making crepes and pancakes.</div>
+                    </div>
+                </div>
+                <div class="textbook-question-item">
+                    <div class="textbook-q-label">(11)</div>
+                    <div class="textbook-q-parts">
+                        <span class="textbook-sub-q-label">①</span><div class="answer-box-small"> abilities </div>
+                        <span class="textbook-sub-q-label">②</span><div class="answer-box-small"> better</div>
+                        <span class="textbook-sub-q-label">③</span><div class="answer-box-small"> what I </div>
+                    </div>
+                </div>
+                <div class="textbook-question-item">
+                    <div class="textbook-q-label">(12)</div>
+                    <div class="textbook-question-item answer-area-large">More than 300 km per hour.</div>
+                </div>
+                <hr>
+                <div class="textbook-question-item">
+                    <div class="textbook-q-label">(13)</div>
+                    <div class="textbook-question-item answer-area-large">Because of their speed.</div>
+                </div>
+                <div class="textbook-question-item">
+                    <div class="textbook-q-label">(14)</div>
+                    <div class="textbook-question-item answer-area-large">When trying to catch small animals for food.</div>
+                </div>
+                <div class="textbook-question-item">
+                    <div class="textbook-q-label">(15)</div>
+                    <div class="textbook-question-item answer-area-large">Over 100 km per hour.</div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <div class="two-column-row"> <!-- Was three-column-row, now for Q4 & Q5 -->
+        <!-- 問4: CBC Kids News - Vocab Matching -->
+        <section class="question-section">
+            <h2 class="first-in-block">問4</h2>
+            <div class="q2-split-table-container">
+                <table class="q-table">
+                    <thead><tr><th class="q-num-header">番号</th><th class="q-ans-header">答え</th></tr></thead>
+                    <tbody>
+                        <tr><td class="q-num-cell">1</td><td class="single-answer-cell">e</td></tr>
+                        <tr><td class="q-num-cell">2</td><td class="single-answer-cell">d</td></tr>
+                        <tr><td class="q-num-cell">3</td><td class="single-answer-cell">g</td></tr>
+                        <tr><td class="q-num-cell">4</td><td class="single-answer-cell">a</td></tr>
+                        <tr><td class="q-num-cell">5</td><td class="single-answer-cell">h</td></tr>
+                    </tbody>
+                </table>
+                <table class="q-table">
+                    <thead><tr><th class="q-num-header">番号</th><th class="q-ans-header">答え</th></tr></thead>
+                    <tbody>
+                        <tr><td class="q-num-cell">6</td><td class="single-answer-cell">j</td></tr>
+                        <tr><td class="q-num-cell">7</td><td class="single-answer-cell">c</td></tr>
+                        <tr><td class="q-num-cell">8</td><td class="single-answer-cell">i</td></tr>
+                        <tr><td class="q-num-cell">9</td><td class="single-answer-cell">b</td></tr>
+                        <tr><td class="q-num-cell">10</td><td class="single-answer-cell">f</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- 問5: CBC Kids News - Fill-in Word -->
+        <section class="question-section">
+            <h2 class="first-in-block">問5</h2>
+            <table class="q-table fill-word-table">
+                <thead><tr><th class="q-num-header">番号</th><th class="q-ans-header">答え</th></tr></thead>
+                <tbody>
+                    <tr><td class="q-num-cell">1</td><td class="answer-cell-word">protect jobs</td></tr>
+                    <tr><td class="q-num-cell">2</td><td class="answer-cell-word">expensive</td></tr>
+                    <tr><td class="q-num-cell">3</td><td class="answer-cell-word">global warming</td></tr>
+                    <tr><td class="q-num-cell">4</td><td class="answer-cell-word">carbon dioxide</td></tr>
+                    <tr><td class="q-num-cell">5</td><td class="answer-cell-word">emotions</td></tr>
+                    <tr><td class="q-num-cell">6</td><td class="answer-cell-word">technologies</td></tr>
+                </tbody>
+            </table>
+        </section>
+    </div> <!-- End of two-column-row -->
+
+    <!-- Row 4: 問6: CBC Kids News - Free Response - FULL WIDTH -->
+    <section class="question-section">
+        <h2 class="first-in-block">問6</h2>
+        <div class="free-response-section">
+            <div class="free-response-item">
+                <div class="free-response-q-number">1</div>
+                <div class="answer-area-large q6-answer">Tariffs can be a complex issue. While they might aim to protect domestic industries and jobs from foreign competition, they often lead to increased prices for consumers and can trigger retaliatory measures from other countries, potentially harming overall economic growth and international trade relations in the long run.</div>
+            </div>
+             <div class="free-response-item">
+                <div class="free-response-q-number">2</div>
+                <div class="answer-area-large q6-answer">A significant change individuals can make is to reduce their meat consumption, particularly red meat. Livestock farming is a major contributor to greenhouse gas emissions, so opting for more plant-based meals can lessen one's carbon footprint and promote more sustainable land use.</div>
+            </div>
+             <div class="free-response-item">
+                <div class="free-response-q-number">3</div>
+                <div class="answer-area-large q6-answer">A.I.'s impact on jobs is multifaceted. While it has the potential to automate many tasks, leading to job displacement in some sectors, it also creates new roles in A.I. development, data analysis, and system maintenance. The focus should be on reskilling and adapting the workforce to collaborate with A.I. technologies.</div>
+            </div>
+        </div>
+    </section>
+
+</div> <!-- End of answer-sheet -->
+
+</body>
+</html> 

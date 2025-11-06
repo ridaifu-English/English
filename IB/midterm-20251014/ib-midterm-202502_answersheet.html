@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Answer Sheet</title>
+    <style>
+      body {
+        font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN",
+          "Meiryo", sans-serif;
+        background-color: #e9e9e9;
+        display: flex;
+        justify-content: center;
+        padding: 40px 20px;
+        margin: 0;
+      }
+      .sheet-container {
+        background-color: white;
+        border: 1px solid #ccc;
+        padding: 40px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        box-sizing: border-box;
+        min-height: 1122px;
+      }
+      .sheet-title {
+        text-align: center;
+        font-size: 28px;
+        margin-top: 0;
+        margin-bottom: 30px;
+        font-weight: bold;
+      }
+      .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 40px;
+        gap: 20px;
+      }
+      .student-info {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+      .info-field {
+        display: flex;
+        align-items: center;
+      }
+      .info-field .label {
+        border: 1px solid black;
+        padding: 5px 10px;
+        border-right: none;
+        background-color: #f8f8f8;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+        white-space: nowrap;
+      }
+      .info-field .box {
+        border: 1px solid black;
+        box-sizing: border-box;
+      }
+      .score-box {
+        border: 2px solid black;
+        box-sizing: border-box;
+        flex-shrink: 0;
+      }
+      .question-section {
+        margin-bottom: 15px;
+        display: flex;
+        gap: 10px;
+        align-items: flex-start;
+      }
+      .section-identifier {
+        width: 20px;
+        flex-shrink: 0;
+        text-align: left;
+        padding-top: 8px;
+        font-size: 16px;
+        font-weight: bold;
+      }
+      .section-id {
+        font-weight: bold;
+      }
+      .section-title {
+        color: #333;
+        font-size: 15px;
+        margin-top: 2px;
+      }
+      .question-content {
+        flex-grow: 1;
+      }
+      .cell-content-box {
+        border: 1px solid black;
+        position: relative;
+        box-sizing: border-box;
+        display: inline-block;
+      }
+      .cell-content-box .label {
+        position: absolute;
+        top: -18px;
+        left: 4px;
+        font-size: 12px;
+        color: #555;
+      }
+      .large-answer-box .label {
+        position: absolute;
+        top: 4px;
+        left: 4px;
+        font-size: 12px;
+        color: #555;
+      }
+      .grid-table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+      .grid-table td {
+        border: 1px solid black;
+        padding: 0;
+        position: relative;
+        box-sizing: border-box;
+      }
+      .large-answer-box {
+        width: 100%;
+        border: 1px solid black;
+        box-sizing: border-box;
+        position: relative;
+      }
+      .large-answer-box + .large-answer-box {
+        border-top: none;
+      }
+      .flex-row-container {
+        display: flex;
+        gap: 0;
+        margin-top: -1px;
+        align-items: stretch;
+        flex-wrap: wrap;
+      }
+      .flex-row-container .cell-content-box {
+        margin-right: -1px;
+        margin-bottom: -1px;
+      }
+
+      @media print {
+        html,
+        body {
+          height: 100%;
+          background-color: white;
+          margin: 0;
+          padding: 0;
+        }
+        .sheet-container {
+          box-shadow: none;
+          border: none;
+          width: 90% !important;
+          height: 100% !important;
+          min-height: initial;
+          padding: 0;
+        }
+        * {
+          -webkit-print-color-adjust: exact !important;
+          color-adjust: exact !important;
+        }
+        @page {
+          size: A4;
+          margin: 10mm;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="sheet-container" style="width: 90%; height: auto">
+      <h1 class="sheet-title">IB1A Logic and Expression Midterm</h1>
+      <div class="header">
+        <div class="student-info">
+          <div class="info-field">
+            <div class="label" style="height: 35px">Class</div>
+            <div class="box" style="width: 80px; height: 35px"></div>
+          </div>
+          <div class="info-field">
+            <div class="label" style="height: 35px">No.</div>
+            <div class="box" style="width: 80px; height: 35px"></div>
+          </div>
+          <div class="info-field">
+            <div class="label" style="height: 35px">Name</div>
+            <div class="box" style="width: 200px; height: 35px"></div>
+          </div>
+        </div>
+        <div class="score-box" style="width: 80px; height: 60px"></div>
+      </div>
+      <div class="question-section">
+        <div class="section-identifier"><div class="section-id">1)</div></div>
+        <div class="question-content">
+          <table class="grid-table">
+            <tbody>
+              <tr>
+                <td style="width: 50%; height: 35px">
+                  <span class="label">1</span>
+                </td>
+                <td style="width: 50%; height: 35px">
+                  <span class="label">2</span>
+                </td>
+              </tr>
+              <tr>
+                <td style="width: 50%; height: 35px">
+                  <span class="label">3</span>
+                </td>
+                <td style="width: 50%; height: 35px">
+                  <span class="label">4</span>
+                </td>
+              </tr>
+              <tr>
+                <td style="width: 50%; height: 35px">
+                  <span class="label">5</span>
+                </td>
+                <td style="width: 50%; height: 35px">
+                  <span class="label">6</span>
+                </td>
+              </tr>
+              <tr>
+                <td style="width: 50%; height: 35px">
+                  <span class="label">7</span>
+                </td>
+                <td style="width: 50%; height: 35px">
+                  <span class="label"></span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="question-section">
+        <div class="section-identifier"><div class="section-id">2)</div></div>
+        <div class="question-content">
+          <table class="grid-table">
+            <tbody>
+              <tr>
+                <td style="width: 150px; height: 35px">
+                  <span class="label">1</span>
+                </td>
+                <td style="width: 150px; height: 35px">
+                  <span class="label">2</span>
+                </td>
+                <td style="width: 150px; height: 35px">
+                  <span class="label">3</span>
+                </td>
+              </tr>
+              <tr>
+                <td style="width: 150px; height: 35px">
+                  <span class="label">4</span>
+                </td>
+                <td style="width: 150px; height: 35px">
+                  <span class="label">5</span>
+                </td>
+                <td style="width: 150px; height: 35px">
+                  <span class="label">6</span>
+                </td>
+              </tr>
+              <tr>
+                <td style="width: 150px; height: 35px">
+                  <span class="label">7</span>
+                </td>
+                <td style="width: 150px; height: 35px">
+                  <span class="label"></span>
+                </td>
+                <td style="width: 150px; height: 35px">
+                  <span class="label"></span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="question-section">
+        <div class="section-identifier"><div class="section-id">3)</div></div>
+        <div class="question-content">
+          <div class="flex-row-wrapper">
+            <div class="flex-row-container" style="margin-top: 25px">
+              <div class="cell-content-box" style="width: 33.3%; height: 35px">
+                <span class="label">3A (1)</span>
+              </div>
+              <div class="cell-content-box" style="width: 33.3%; height: 35px">
+                <span class="label">3A (2)</span>
+              </div>
+              <div class="cell-content-box" style="width: 33.3%; height: 35px">
+                <span class="label">3A (3)</span>
+              </div>
+            </div>
+            <div class="flex-row-container" style="margin-top: 25px">
+              <div class="cell-content-box" style="width: 33.3%; height: 35px">
+                <span class="label">3B (1)</span>
+              </div>
+              <div class="cell-content-box" style="width: 33.3%; height: 35px">
+                <span class="label">3B (2)</span>
+              </div>
+              <div class="cell-content-box" style="width: 33.3%; height: 35px">
+                <span class="label">3B (3)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="question-section">
+        <div class="section-identifier"><div class="section-id">4)</div></div>
+        <div class="question-content">
+          <div class="flex-row-wrapper">
+            <div class="flex-row-container" style="margin-top: 25px">
+              <div class="cell-content-box" style="width: 50%; height: 35px">
+                <span class="label">4A (1)</span>
+              </div>
+              <div class="cell-content-box" style="width: 50%; height: 35px">
+                <span class="label">4A (2)</span>
+              </div>
+            </div>
+            <div class="flex-row-container" style="margin-top: 25px">
+              <div class="cell-content-box" style="width: 33.3%; height: 35px">
+                <span class="label">4B (1)</span>
+              </div>
+              <div class="cell-content-box" style="width: 33.3%; height: 35px">
+                <span class="label">4B (2)</span>
+              </div>
+              <div class="cell-content-box" style="width: 33.3%; height: 35px">
+                <span class="label">4B (3)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="question-section">
+        <div class="section-identifier"><div class="section-id">5)</div></div>
+        <div class="question-content">
+          <div class="flex-row-wrapper">
+            <div class="flex-row-container" style="margin-top: 25px">
+              <div class="cell-content-box" style="width: 50%; height: 35px">
+                <span class="label">5-1 (a)</span>
+              </div>
+              <div class="cell-content-box" style="width: 50%; height: 35px">
+                <span class="label">5-1 (b)</span>
+              </div>
+            </div>
+            <div class="flex-row-container" style="margin-top: 25px">
+              <div class="cell-content-box" style="width: 50%; height: 35px">
+                <span class="label">5-2 (a)</span>
+              </div>
+              <div class="cell-content-box" style="width: 50%; height: 35px">
+                <span class="label">5-2 (b)</span>
+              </div>
+            </div>
+            <div class="flex-row-container" style="margin-top: 25px">
+              <div class="cell-content-box" style="width: 50%; height: 35px">
+                <span class="label">5-3 (a)</span>
+              </div>
+              <div class="cell-content-box" style="width: 50%; height: 35px">
+                <span class="label">5-3 (b)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="question-section">
+        <div class="section-identifier"><div class="section-id">6)</div></div>
+        <div class="question-content">
+          <div class="flex-row-wrapper">
+            <div class="flex-row-container" style="margin-top: 25px">
+              <div class="cell-content-box" style="width: 50%; height: 35px">
+                <span class="label">6-1 (a)</span>
+              </div>
+              <div class="cell-content-box" style="width: 50%; height: 35px">
+                <span class="label">6-1 (b)</span>
+              </div>
+            </div>
+            <div class="flex-row-container" style="margin-top: 25px">
+              <div class="cell-content-box" style="width: 100%; height: 35px">
+                <span class="label">6-2 (a)</span>
+              </div>
+            </div>
+            <div class="flex-row-container" style="margin-top: 25px">
+              <div class="cell-content-box" style="width: 100%; height: 35px">
+                <span class="label">6-3 (a)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="question-section">
+        <div class="section-identifier"><div class="section-id">7)</div></div>
+        <div class="question-content">
+          <div class="flex-row-wrapper">
+            <div class="flex-row-container" style="margin-top: 25px">
+              <div class="cell-content-box" style="width: 25%; height: 35px">
+                <span class="label">(1)</span>
+              </div>
+              <div class="cell-content-box" style="width: 25%; height: 35px">
+                <span class="label">(2)</span>
+              </div>
+              <div class="cell-content-box" style="width: 25%; height: 35px">
+                <span class="label">(3)</span>
+              </div>
+              <div class="cell-content-box" style="width: 25%; height: 35px">
+                <span class="label">(4)</span>
+              </div>
+            </div>
+            <div class="flex-row-container" style="margin-top: 25px">
+              <div class="cell-content-box" style="width: 100%; height: 35px">
+                <span class="label">7B Order</span>
+              </div>
+            </div>
+            <div class="flex-row-container" style="margin-top: 25px">
+              <div class="cell-content-box" style="width: 50%; height: 35px">
+                <span class="label">7C (1)</span>
+              </div>
+              <div class="cell-content-box" style="width: 50%; height: 35px">
+                <span class="label">7C (2)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="question-section">
+        <div class="section-identifier"><div class="section-id"></div></div>
+        <div class="question-content">
+          <div
+            class="large-answer-box"
+            style="height: 150px; background-image: none"
+          >
+            <span class="label">7D Body Paragraph</span>
+          </div>
+        </div>
+      </div>
+      <div class="question-section">
+        <div class="section-identifier"><div class="section-id">8)</div></div>
+        <div class="question-content">
+          <div
+            class="large-answer-box"
+            style="height: 150px; background-image: none"
+          >
+            <span class="label">1)</span>
+          </div>
+          <div
+            class="large-answer-box"
+            style="height: 150px; background-image: none"
+          >
+            <span class="label">2)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

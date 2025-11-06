@@ -1,0 +1,7 @@
+- [ ] understand the materials by reading through IB/finals-1-2025/materials/
+- [ ] create additional questions so that the total will be 100 points
+- [ ] create 3 drafts of the finals
+- [ ] If necessary, fetch external information using firecrawl-mcp and put them in IB/finals-1-2025/materials/
+- [ ] use the extracted news ariticles 
+- [ ] check for the balance of the questions between 知識・技能 (general knowledge and skills) and 思考・判断 (thinking and decision-making); the ideal is having 50 points for each
+- [ ] check if students are able to answer all of the questions within 45 minutes the last exam; IB/midterm/mock.md was about 35 minutes

@@ -1,0 +1,98 @@
+/* Slide 2 specific styles */
+.section {
+  margin-bottom: 25px;
+}
+
+.section-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #4a7cbc;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.section-title i {
+  margin-right: 12px;
+  width: 28px;
+  height: 28px;
+  stroke-width: 2.5;
+}
+
+.section-content {
+  font-size: 20px;
+  line-height: 1.5;
+  padding-left: 40px;
+}
+
+.section-content li {
+  margin-bottom: 8px;
+}
+
+.examples {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.example {
+  width: 48%;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  padding: 20px;
+  position: relative;
+}
+
+.example-number {
+  position: absolute;
+  top: -15px;
+  left: -15px;
+  width: 40px;
+  height: 40px;
+  background-color: #ff9800;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.example-english {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.example-japanese {
+  font-size: 18px;
+  color: #666;
+}
+
+.highlight {
+  color: #e91e63;
+  font-weight: 500;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  position: relative;
+  padding-left: 20px;
+}
+
+ul li::before {
+  content: "•";
+  color: #4a7cbc;
+  font-size: 24px;
+  position: absolute;
+  left: 0;
+}
+
+.content {
+  padding: 30px 60px;
+}
+

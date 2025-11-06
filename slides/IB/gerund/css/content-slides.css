@@ -1,0 +1,66 @@
+/* Content Slides (slides 3-9) */
+
+/* Adjust pattern box for tighter layouts if needed */
+.pattern-box {
+    padding: 18px 22px;
+}
+
+/* Adjust examples spacing for tighter layouts */
+.examples {
+    gap: 18px;
+}
+
+.example {
+    padding: 18px;
+}
+
+/* Additional category box styles */
+.category-box {
+    margin-bottom: 12px;
+}
+
+.category-header {
+    padding: 10px 18px;
+}
+
+.category-content {
+    padding: 15px 18px;
+}
+
+/* Expression grid tighter spacing */
+.expression-grid {
+    gap: 12px;
+}
+
+.expression-item {
+    padding: 12px 15px;
+}
+
+/* Comparison grid adjustments */
+.comparison-grid {
+    gap: 20px;
+}
+
+.comparison-column {
+    padding: 12px;
+}
+
+.comparison-point {
+    margin-bottom: 10px;
+}
+
+.example-compact {
+    margin-top: 8px;
+    padding: 10px;
+}
+
+/* Tip and warning boxes */
+.tip-box {
+    padding: 12px 18px;
+    margin-top: 12px;
+}
+
+.warning-box {
+    padding: 12px 18px;
+}
+

@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1a1a1a;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.slide {
+  width: 1280px;
+  height: 720px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+body.presentation-mode {
+  background-color: #000;
+}
+
+.header {
+  background-color: #4a7cbc;
+  padding: 18px 40px;
+  color: white;
+}
+
+.title {
+  font-size: 44px;
+  font-weight: 700;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 35px 80px;
+}
+
+.highlight {
+  color: #e91e63;
+  font-weight: 700;
+}
+
+.emphasis {
+  color: #e91e63;
+  font-weight: 700;
+}
+
+.that {
+  color: #2196f3;
+  font-weight: 700;
+}
+
+.structure {
+  color: #666;
+  font-weight: 500;
+}
+
+.so {
+  color: #ff9800;
+  font-weight: 700;
+}
+
+.such {
+  color: #ff9800;
+  font-weight: 700;
+}
+

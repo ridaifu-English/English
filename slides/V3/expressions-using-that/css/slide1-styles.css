@@ -1,0 +1,117 @@
+/* Slide 1 specific styles */
+.slide {
+  background-color: #f0f8ff;
+  position: relative;
+}
+
+.slide::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #4a7cbc;
+  clip-path: polygon(0 0, 100% 0, 100% 60%, 0% 80%);
+  z-index: 0;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  position: relative;
+  z-index: 1;
+}
+
+.title {
+  font-size: 64px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 20px;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.subtitle {
+  font-size: 32px;
+  font-weight: 500;
+  color: white;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.goals-container {
+  background-color: white;
+  border-radius: 16px;
+  padding: 30px;
+  width: 80%;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.goals-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #4a7cbc;
+  margin-bottom: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.goals-title i {
+  width: 32px;
+  height: 32px;
+  stroke-width: 2.5;
+}
+
+.goals-list {
+  list-style-type: none;
+}
+
+.goals-list li {
+  font-size: 22px;
+  margin-bottom: 15px;
+  line-height: 1.4;
+}
+
+.goals-list li p {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.goals-list li i {
+  width: 24px;
+  height: 24px;
+  stroke-width: 2.5;
+  color: #4a7cbc;
+  flex-shrink: 0;
+}
+
+.character {
+  position: absolute;
+  right: 40px;
+  bottom: 40px;
+  width: 180px;
+  height: 180px;
+  background-color: #ffb74d;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  z-index: 2;
+}
+
+.character p {
+  color: white;
+  font-size: 80px;
+  font-weight: bold;
+}
+

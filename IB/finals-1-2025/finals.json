@@ -1,0 +1,99 @@
+{
+  "size_definitions": {
+    "width": {
+      "xs": 80,
+      "sm": 100,
+      "md": 140,
+      "lg": 300,
+      "xl": 450,
+      "full": "100%"
+    },
+    "height": {
+      "sm": 35,
+      "md": 40,
+      "lg": 150,
+      "xl": 250
+    }
+  },
+  "sheet_settings": {
+    "width": "800px",
+    "height": "auto",
+    "title": "IB Finals 2025"
+  },
+  "header_layout": {
+    "fields": [
+      { "label": "クラス", "width": "xs", "height": "md" },
+      { "label": "出席番号", "width": "sm", "height": "md" },
+      { "label": "氏名", "width": "md", "height": "md" }
+    ],
+    "score_box": { "width": "md", "height": "md" }
+  },
+  "question_sections": [
+    {
+      "section_id": "1)",
+      "layout_type": "grid_layout",
+      "columns": 5,
+      "rows": 2,
+      "start_number": 1,
+      "box_width": "xs",
+      "box_height": "md"
+    },
+    {
+      "section_id": "2)",
+      "layout_type": "grid_layout",
+      "columns": 5,
+      "rows": 1,
+      "start_number": 1,
+      "box_width": "md",
+      "box_height": "sm"
+    },
+    {
+      "section_id": "3)",
+      "layout_type": "grid_layout",
+      "columns": 5,
+      "rows": 3,
+      "start_number": 1,
+      "box_width": "md",
+      "box_height": "sm"
+    },
+    {
+      "section_id": "4)",
+      "layout_type": "single_column_layout",
+      "items": [
+        { "width": "full", "height": "sm" },
+        { "width": "full", "height": "sm" },
+        { "width": "full", "height": "sm" },
+        { "width": "full", "height": "sm" },
+        { "width": "full", "height": "sm" }
+      ]
+    },
+    {
+      "section_id": "5)",
+      "layout_type": "grid_layout",
+      "columns": 5,
+      "rows": 1,
+      "start_number": 1,
+      "box_width": "md",
+      "box_height": "sm"
+    },
+    {
+      "section_id": "6)",
+      "layout_type": "single_column_layout",
+      "items": [
+        { "width": "full", "height": "sm" },
+        { "width": "full", "height": "sm" },
+        { "width": "full", "height": "sm" },
+        { "width": "full", "height": "sm" },
+        { "width": "full", "height": "sm" }
+      ]
+    },
+    {
+      "section_id": "7)",
+      "layout_type": "single_column_layout",
+      "items": [
+        { "width": "full", "height": "lg" },
+        { "width": "full", "height": "lg" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+/* Slide 10: Practice Exercises */
+.practice-item {
+    background-color: #f8f9fa;
+    padding: 20px 25px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    border-left: 4px solid #4a7cbc;
+}
+
+.practice-item:last-child {
+    margin-bottom: 0;
+}
+
+.practice-question {
+    font-size: 22px;
+    color: #333;
+    font-weight: 500;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.practice-question .number {
+    background-color: #4a7cbc;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.practice-answer {
+    font-size: 20px;
+    color: #4caf50;
+    font-weight: 600;
+    padding-left: 44px;
+}
+

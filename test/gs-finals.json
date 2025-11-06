@@ -1,0 +1,214 @@
+{
+    "size_definitions": {
+        "height": {
+            "sm": 35,
+            "md": 40,
+            "lg": 100,
+            "xl": 150
+        },
+        "width": {
+            "sm": "5%",
+            "md": 150,
+            "lg": "100%",
+            "full": "100%"
+        }
+    },
+    "sheet_settings": {
+        "title": "GS course -期末テスト",
+        "width": "90%",
+        "height": "auto",
+        "background_image": "test/marksheet-base.png"
+    },
+    "header_layout": {
+        "fields": [
+            {
+                "label": "Class",
+                "width": 80,
+                "height": "sm"
+            },
+            {
+                "label": "No.",
+                "width": 80,
+                "height": "sm"
+            },
+            {
+                "label": "Name",
+                "width": 200,
+                "height": "sm"
+            }
+        ],
+        "score_box": {
+            "width": 120,
+            "height": 60
+        }
+    },
+    "question_sections": [
+        {
+            "section_id": "1)",
+            "layout_type": "flex_row_layout",
+            "items": [
+                {
+                    "label": "A",
+                    "width": "20%",
+                    "height": "sm"
+                },
+                {
+                    "label": "B",
+                    "width": "20%",
+                    "height": "sm"
+                },
+                {
+                    "label": "C",
+                    "width": "20%",
+                    "height": "sm"
+                },
+                {
+                    "label": "D",
+                    "width": "20%",
+                    "height": "sm"
+                },
+                {
+                    "label": "E",
+                    "width": "20%",
+                    "height": "sm"
+                }
+            ]
+        },
+        {
+            "section_id": "2)",
+            "layout_type": "flex_row_layout",
+            "items": [
+                {
+                    "label": "A",
+                    "width": "20%",
+                    "height": "sm"
+                },
+                {
+                    "label": "B",
+                    "width": "20%",
+                    "height": "sm"
+                },
+                {
+                    "label": "C",
+                    "width": "20%",
+                    "height": "sm"
+                },
+                {
+                    "label": "D",
+                    "width": "20%",
+                    "height": "sm"
+                },
+                {
+                    "label": "E",
+                    "width": "20%",
+                    "height": "sm"
+                }
+            ]
+        },
+        {
+            "section_id": "3)",
+            "layout_type": "flex_row_layout",
+            "items": [
+                [
+                    { "label": "I (A)", "width": "25%", "height": "sm" },
+                    { "label": "I (B)", "width": "25%", "height": "sm" },
+                    { "label": "I (C)", "width": "25%", "height": "sm" }
+                ],
+                [
+                    { "label": "II (あ)", "width": "20%", "height": "sm" },
+                    { "label": "II (い)", "width": "20%", "height": "sm" },
+                    { "label": "II (う)", "width": "20%", "height": "sm" },
+                    { "label": "II (え)", "width": "20%", "height": "sm" },
+                    { "label": "II (お)", "width": "20%", "height": "sm" }
+                ],
+                [
+                    { "label": "III", "width": "25%", "height": "sm" }
+                ]
+            ]
+        },
+        {
+            "section_id": "",
+            "layout_type": "large_box_layout",
+            "no_background": true,
+            "items": [
+                { "label": "IV", "height": "md" },
+                { "label": "V", "height": "md" },
+                { "label": "VI", "height": "md" }
+            ]
+        },
+        {
+            "section_id": "4)",
+            "layout_type": "flex_row_layout",
+            "items": [
+                [
+                    { "label": "I (A)", "width": "33.3%", "height": "sm" },
+                    { "label": "I (B)", "width": "33.3%", "height": "sm" },
+                    { "label": "I (C)", "width": "33.3%", "height": "sm" }
+                ],
+                [
+                    { "label": "II (あ)", "width": "33.3%", "height": "sm" },
+                    { "label": "II (い)", "width": "33.3%", "height": "sm" },
+                    { "label": "II (う)", "width": "33.3%", "height": "sm" }
+                ],
+                [
+                    { "label": "III", "width": "33.3%", "height": "sm" },
+                    { "label": "IV", "width": "33.3%", "height": "sm" },
+                    { "label": "V", "width": "33.3%", "height": "sm" }
+                ]
+            ]
+        },
+        {
+            "section_id": "",
+            "layout_type": "large_box_layout",
+            "no_background": true,
+            "items": [
+                { "label": "VI", "height": "md" },
+                { "label": "VII", "height": "md" }
+            ]
+        },
+        {
+            "section_id": "5)",
+            "layout_type": "flex_row_layout",
+            "items": [
+                [
+                    { "label": "I (1)", "width": "33.3%", "height": "sm" },
+                    { "label": "I (2)", "width": "33.3%", "height": "sm" },
+                    { "label": "I (3)", "width": "33.3%", "height": "sm" }
+                ],
+                [
+                    { "label": "II (A)", "width": "25%", "height": "sm" },
+                    { "label": "II (B)", "width": "25%", "height": "sm" },
+                    { "label": "II (C)", "width": "25%", "height": "sm" },
+                    { "label": "III", "width": "25%", "height": "sm" }
+                ],
+                [
+                    { "label": "IV", "width": "50%", "height": "sm" }
+                ]
+            ]
+        },
+        {
+            "section_id": "",
+            "layout_type": "large_box_layout",
+            "no_background": true,
+            "items": [
+                { "label": "VI", "height": "md" },
+                { "label": "VII", "height": "md" }
+            ]
+        },
+        {
+            "section_id": "6)",
+            "layout_type": "large_box_layout",
+            "no_background": true,
+            "items": [
+                {
+                    "label": "1)",
+                    "height": "xl"
+                },
+                {
+                    "label": "2)",
+                    "height": "xl"
+                }
+            ]
+        }
+    ]
+} 
