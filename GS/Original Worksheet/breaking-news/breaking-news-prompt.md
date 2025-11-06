@@ -195,21 +195,21 @@ Create a folder structure for each article:
 ```
 breaking-news/
   └── [article-topic-name]/
-      ├── worksheet.md
-      └── answer.md
+      ├── [article-topic-name]-worksheet.md
+      └── [article-topic-name]-answer.md
 ```
 
 **Example:**
 ```
 breaking-news/
   └── career-apocalypse/
-      ├── worksheet.md
-      └── answer.md
+      ├── career-apocalypse-worksheet.md
+      └── career-apocalypse-answer.md
 ```
 
 ## Answer Key Format
 
-Create a separate answer file: `answer.md` (inside the article folder)
+Create a separate answer file: `[article-topic-name]-answer.md` (inside the article folder)
 
 ```markdown
 # [Article Title] - Answer Key
@@ -272,5 +272,5 @@ To use this prompt:
 4. Copy the full article script/text from Level 0
 5. **Create a folder** in the breaking-news directory with the article topic name (e.g., `career-apocalypse/`)
 6. Provide the article text and specify: "Create a worksheet based on this breaking news article using the breaking-news-prompt.md format"
-7. Save the worksheet as `worksheet.md` and answer key as `answer.md` inside the article folder
+7. Save the worksheet as `[article-topic-name]-worksheet.md` and answer key as `[article-topic-name]-answer.md` inside the article folder
 8. The worksheet and answer key will follow this consistent format
