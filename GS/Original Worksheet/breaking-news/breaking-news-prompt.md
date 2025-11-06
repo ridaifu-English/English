@@ -4,11 +4,15 @@
 
 **Website:** https://breakingnewsenglish.com/simple-english-news.html
 
+**Note:** To fetch content programmatically, use the r.jina.ai/ prefix before the URL:
+- Example: `https://r.jina.ai/https://breakingnewsenglish.com/simple-english-news.html`
+
 ### Steps to Fetch Content:
 
-1. **Navigate to the website** and browse the available articles
+1. **Navigate to the website** using `https://r.jina.ai/https://breakingnewsenglish.com/simple-english-news.html` to browse available articles
 2. **Select an article** of interest from the simple English news page
-3. **Get Level 0 content** - This is the easiest level, suitable for basic English learners
+3. **Get Level 0 content** - Navigate to the article and access Level 0 (the easiest level, suitable for basic English learners)
+   - Use r.jina.ai/ prefix: `https://r.jina.ai/[article-level-0-url]`
 4. **Extract the script** - Find and copy the full article text from Level 0
 5. **Use the script** to create a worksheet following the format below
 
@@ -242,9 +246,9 @@ Sample answer points students might include:
 ## Usage
 
 To use this prompt:
-1. Visit https://breakingnewsenglish.com/simple-english-news.html
+1. Visit https://r.jina.ai/https://breakingnewsenglish.com/simple-english-news.html (use r.jina.ai/ prefix to fetch content)
 2. Select an article from the list
-3. Navigate to **Level 0** of that article (the easiest level)
+3. Navigate to **Level 0** of that article (the easiest level) using r.jina.ai/ prefix
 4. Copy the full article script/text from Level 0
 5. Provide the article text and specify: "Create a worksheet based on this breaking news article using the breaking-news-prompt.md format"
 6. The worksheet and answer key will follow this consistent format
