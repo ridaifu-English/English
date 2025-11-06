@@ -1,8 +1,25 @@
 # Breaking News Worksheet Creation Prompt
 
+## Data Source
+
+**Website:** https://breakingnewsenglish.com/simple-english-news.html
+
+**Note:** To fetch content programmatically, you can try using the r.jina.ai/ prefix before the URL:
+- Example: `https://r.jina.ai/https://breakingnewsenglish.com/simple-english-news.html`
+- Note: Some sites may block automated access. If r.jina.ai doesn't work, manually visit the website.
+
+### Steps to Fetch Content:
+
+1. **Navigate to the website** at https://breakingnewsenglish.com/simple-english-news.html (or try `https://r.jina.ai/https://breakingnewsenglish.com/simple-english-news.html`)
+2. **Select an article** of interest from the simple English news page
+3. **Get Level 0 content** - Navigate to the article and access Level 0 (the easiest level, suitable for basic English learners)
+4. **Extract the script** - Find and copy the full article text from Level 0
+5. **Create a folder** for the article using the naming format: `article-topic-name` (e.g., `career-apocalypse`, `trade-tariffs`)
+6. **Use the script** to create a worksheet following the format below and save it in the folder
+
 ## Instructions
 
-Create a worksheet based on the provided breaking news article with the following structure:
+Create a worksheet based on the extracted Level 0 breaking news article with the following structure:
 
 ---
 
@@ -171,9 +188,28 @@ Listen to the article again and circle **T** (True) or **F** (False).
 
 ---
 
+## File Organization
+
+Create a folder structure for each article:
+
+```
+breaking-news/
+  └── [article-topic-name]/
+      ├── [article-topic-name]-worksheet.md
+      └── [article-topic-name]-answer.md
+```
+
+**Example:**
+```
+breaking-news/
+  └── career-apocalypse/
+      ├── career-apocalypse-worksheet.md
+      └── career-apocalypse-answer.md
+```
+
 ## Answer Key Format
 
-Create a separate answer file: `[article-name]-answer.md`
+Create a separate answer file: `[article-topic-name]-answer.md` (inside the article folder)
 
 ```markdown
 # [Article Title] - Answer Key
@@ -230,6 +266,11 @@ Sample answer points students might include:
 ## Usage
 
 To use this prompt:
-1. Provide the breaking news article text
-2. Specify: "Create a worksheet based on this breaking news article using the breaking-news-prompt.md format"
-3. The worksheet and answer key will follow this consistent format
+1. Visit https://breakingnewsenglish.com/simple-english-news.html (try r.jina.ai/ prefix if fetching programmatically)
+2. Select an article from the list
+3. Navigate to **Level 0** of that article (the easiest level)
+4. Copy the full article script/text from Level 0
+5. **Create a folder** in the breaking-news directory with the article topic name (e.g., `career-apocalypse/`)
+6. Provide the article text and specify: "Create a worksheet based on this breaking news article using the breaking-news-prompt.md format"
+7. Save the worksheet as `[article-topic-name]-worksheet.md` and answer key as `[article-topic-name]-answer.md` inside the article folder
+8. The worksheet and answer key will follow this consistent format
