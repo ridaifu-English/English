@@ -10,6 +10,8 @@ Create a worksheet based on the provided breaking news article with the followin
 
 ### Part 1: Gap Fill Exercise (6 blanks)
 - Present the entire article text with blanks for students to fill in
+- **CRITICAL: Use the EXACT original text from the script - DO NOT change, paraphrase, or simplify any words**
+- **ONLY remove specific words to create blanks - all other text must remain exactly as written in the original**
 - **IMPORTANT: Each blank must be a maximum of 2 words**
 - Blanks can include various types of words (phrases, connectors, content words)
 - Focus on key vocabulary and important phrases from the article
