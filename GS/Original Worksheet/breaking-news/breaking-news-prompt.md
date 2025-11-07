@@ -1,5 +1,43 @@
 # Breaking News Worksheet Creation Prompt
 
+## Data Source
+
+**Website:** https://breakingnewsenglish.com/simple-english-news.html
+
+**RSS Feed:** https://breakingnewsenglish.com/bne.xml
+
+### How to Fetch Articles Programmatically:
+
+1. **Fetch the RSS Feed** - Use the RSS feed URL to get the latest articles:
+   - URL: `https://breakingnewsenglish.com/bne.xml`
+   - This feed provides the most recent articles with their titles and links
+   - Articles are typically updated every three days
+
+2. **Access Article from RSS Feed** - Once you have the article URL from the RSS feed:
+   - Example URL format: `https://breakingnewsenglish.com/YYMM/YYMMDD-article-name.html`
+   - This gives you access to the main article page
+
+3. **Get Level 0 Content** - Navigate to the Level 0 version for beginner learners:
+   - Level 0 URL format: `https://breakingnewsenglish.com/YYMM/YYMMDD-article-name-0.html`
+   - Simply add `-0` before `.html` to access the easiest level
+   - Level 0 uses basic vocabulary and short sentences suitable for beginner English learners
+
+4. **Extract the Article Text** - Use WebFetch or similar tools to extract the full article text from the Level 0 page
+
+5. **Create Folder Structure** - Create a folder for the article:
+   - Format: `breaking-news/[article-topic-name]/`
+   - Example: `breaking-news/food-and-body-smell/`
+
+### Alternative Method:
+
+If automated access doesn't work, you can manually:
+1. Visit https://breakingnewsenglish.com/simple-english-news.html
+2. Select an article of interest
+3. Navigate to Level 0 of that article
+4. Copy the article text manually
+
+---
+
 ## Instructions
 
 Create a worksheet based on the provided breaking news article with the following structure:
@@ -227,9 +265,35 @@ Sample answer points students might include:
 
 ---
 
+## File Organization
+
+Create a folder structure for each article:
+
+```
+breaking-news/
+  └── [article-topic-name]/
+      ├── [article-topic-name]-worksheet.md
+      └── [article-topic-name]-answer.md
+```
+
+**Example:**
+```
+breaking-news/
+  └── food-and-body-smell/
+      ├── food-and-body-smell-worksheet.md
+      └── food-and-body-smell-answer.md
+```
+
+---
+
 ## Usage
 
 To use this prompt:
-1. Provide the breaking news article text
-2. Specify: "Create a worksheet based on this breaking news article using the breaking-news-prompt.md format"
-3. The worksheet and answer key will follow this consistent format
+1. **Fetch the RSS feed** at https://breakingnewsenglish.com/bne.xml to see available articles
+2. **Select an article** from the feed
+3. **Access Level 0** by adding `-0` to the article URL (before `.html`)
+4. **Extract the article text** using WebFetch or manual copy
+5. **Create a folder** for the article in the breaking-news directory
+6. **Provide the article text** and specify: "Create a worksheet based on this breaking news article using the breaking-news-prompt.md format"
+7. **Save the files** as `[article-topic-name]-worksheet.md` and `[article-topic-name]-answer.md` in the article folder
+8. The worksheet and answer key will follow this consistent format
