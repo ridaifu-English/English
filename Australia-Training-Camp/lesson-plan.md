@@ -30,9 +30,11 @@ Instead of traditional teacher lectures, students will:
 ## Group Structure & Topic Assignments
 
 ### Group Formation (30 Students)
-**6 Groups of 5 Students** - Each group researches ONE topic
+**Option A:** 6 groups of 5 students (skip one topic)
+**Option B:** 5 groups of 6 students (skip two topics)
+**Option C:** Mix of group sizes to cover all 7 topics
 
-### Topic Assignments
+### Topic Assignments (7 Topics Available)
 
 **Topics will be randomly assigned to groups. Students must decide what aspects of their topic are most important to research.**
 
@@ -48,10 +50,14 @@ Instead of traditional teacher lectures, students will:
 
 **Group 6: Living and Traveling in Australia**
 
+**Group 7: Homestaying and Living with Host Families**
+
 **Note for Students:** These topics are intentionally broad. Your group must:
 - Decide what specific aspects to focus on
 - Determine what information is most useful for the training camp
 - Choose what your classmates should know about your topic
+
+**Important:** Homestaying is very different from Japanese culture. Understanding host family expectations, communication, and daily life routines will be crucial for your trip!
 
 ---
 
@@ -140,18 +146,20 @@ Instead of traditional teacher lectures, students will:
 - Adjust difficulty if needed
 - Prepare 2-minute introduction for presentation day
 
-### Session 3: Presentations & Learning (60 minutes)
+### Session 3: Presentations & Learning (60-70 minutes)
 
 **Format for Each Group (10 minutes):**
 - **Minutes 1-2:** Brief introduction - "Why this topic matters for Australia"
 - **Minutes 3-8:** All students play the Kahoot (5-7 minutes)
 - **Minutes 9-10:** Quick debrief - Share the most important takeaway
 
-**All 6 Groups Present:**
+**All Groups Present:**
 - Entire class learns from each other
 - Everyone participates in all Kahoots
 - Teacher can identify knowledge gaps
 - Fun, competitive learning environment
+
+**Note:** If using all 7 topics, presentations will take 70 minutes. Plan accordingly or split across two sessions.
 
 ---
 
@@ -282,6 +290,11 @@ Each group's Kahoot must have:
 - australia.gov.au
 - Search: "travel Australia tips"
 
+**Group 7 (Homestaying):**
+- Search: "Australian homestay culture"
+- Search: "host family etiquette Australia"
+- Search: "living with Australian families"
+
 ---
 
 ## Teacher Notes
@@ -337,9 +350,10 @@ Each group's Kahoot must have:
 - Teacher reviews and provides feedback
 
 ### Week 5: Session 3 - Presentations
-- All 6 groups present (60 minutes)
+- All groups present (60-70 minutes depending on number of groups)
 - Students play all Kahoots
 - Discussion and reflection
+- Consider splitting presentations across two sessions if using all 7 topics
 
 ### Week 6-8: Review & Preparation
 - Review areas where Kahoots showed weakness
