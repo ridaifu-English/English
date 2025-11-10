@@ -131,22 +131,23 @@ Match the English words with their Japanese translations.
 
 ### Part 5: Critical Thinking (1 question only)
 - Create ONE open-ended question that:
+  - **IMPORTANT:** The question itself should be only 1 sentence
   - Asks students to form and defend an opinion about the topic
-  - Requires students to consider advantages AND disadvantages
   - References concerns or issues from the article
   - Encourages analytical thinking about real-world implications
   - **IMPORTANT:** Include sentence starters to help students construct their responses
   - Focus on helping students discuss opinions with peers and compose sentences with reasons
 
-**Example prompts:**
-- "Do you think [technology/practice from article] should be used in [context]? What are the advantages and disadvantages? Consider the concerns mentioned in the article and explain your reasoning."
-- "How do you feel about [issue from article]? What are the potential benefits and risks?"
+**Example question formats (1 sentence only):**
+- "Do you think [technology/practice from article] should be used in [context]?"
+- "How do you feel about [issue from article]?"
+- "Should people [action related to article topic]?"
 
 **Format with Sentence Starters:**
 ```
-[Open-ended question about the topic]
+[One sentence question about the topic]
 
-Use these sentence starters to help you express your opinion:
+Consider the advantages and disadvantages. Use these sentence starters to help you express your opinion:
 - I agree with the opinion that _____________ because _____________.
 - I don't agree with the opinion that _____________ because _____________.
 - I think _____________ because _____________.
@@ -218,9 +219,9 @@ Listen to the article again and circle **T** (True) or **F** (False).
 
 ### Part 5: Critical Thinking
 
-[Open-ended question about the topic]
+[One sentence question about the topic]
 
-Use these sentence starters to help you express your opinion:
+Consider the advantages and disadvantages. Use these sentence starters to help you express your opinion:
 - I agree with the opinion that _____________ because _____________.
 - I don't agree with the opinion that _____________ because _____________.
 - I think _____________ because _____________.
@@ -288,19 +289,26 @@ Sample answer points students might include:
 
 ## File Organization
 
-Create a folder structure for each article:
+Create a folder structure for each article with **3 required files**:
 
 ```
 breaking-news/
   └── [article-topic-name]/
+      ├── [article-topic-name]-script.md
       ├── [article-topic-name]-worksheet.md
       └── [article-topic-name]-answer.md
 ```
+
+**File descriptions:**
+1. **[article-topic-name]-script.md** - Raw article text with no changes (Level 0 content)
+2. **[article-topic-name]-worksheet.md** - Student worksheet with exercises
+3. **[article-topic-name]-answer.md** - Answer key for teachers
 
 **Example:**
 ```
 breaking-news/
   └── food-and-body-smell/
+      ├── food-and-body-smell-script.md
       ├── food-and-body-smell-worksheet.md
       └── food-and-body-smell-answer.md
 ```
@@ -316,5 +324,8 @@ To use this prompt:
 4. **Extract the article text** using WebFetch or manual copy
 5. **Create a folder** for the article in the breaking-news directory
 6. **Provide the article text** and specify: "Create a worksheet based on this breaking news article using the breaking-news-prompt.md format"
-7. **Save the files** as `[article-topic-name]-worksheet.md` and `[article-topic-name]-answer.md` in the article folder
+7. **Save 3 files** in the article folder:
+   - `[article-topic-name]-script.md` - Raw article text with no changes
+   - `[article-topic-name]-worksheet.md` - Student worksheet
+   - `[article-topic-name]-answer.md` - Answer key
 8. The worksheet and answer key will follow this consistent format

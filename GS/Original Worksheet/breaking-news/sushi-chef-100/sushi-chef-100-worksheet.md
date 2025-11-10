@@ -48,9 +48,9 @@ Listen to the article again and circle **T** (True) or **F** (False).
 
 ### Part 5: Critical Thinking
 
-Do you think people should continue working when they are very old, like Jiro Ono at 100 years old? What are the advantages and disadvantages of working at such an old age? Consider Jiro Ono's belief that "the best medicine is to work" and explain your reasoning.
+Do you think people should continue working when they are very old, like Jiro Ono at 100 years old?
 
-Use these sentence starters to help you express your opinion:
+Consider the advantages and disadvantages. Use these sentence starters to help you express your opinion:
 - I agree with the opinion that _____________ because _____________.
 - I don't agree with the opinion that _____________ because _____________.
 - I think _____________ because _____________.
