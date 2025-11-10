@@ -49,3 +49,10 @@ Listen to the article again and circle **T** (True) or **F** (False).
 ### Part 5: Critical Thinking
 
 Do you think people should avoid certain foods to control their body smell? What are the advantages and disadvantages of changing your diet to smell better? Consider the health benefits of foods like broccoli, garlic, and coffee mentioned in the article, and explain your reasoning.
+
+Use these sentence starters to help you express your opinion:
+- I agree with the opinion that _____________ because _____________.
+- I don't agree with the opinion that _____________ because _____________.
+- I think _____________ because _____________.
+- One advantage is _____________.
+- One disadvantage is _____________.

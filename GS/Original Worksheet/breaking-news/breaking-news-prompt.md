@@ -135,10 +135,24 @@ Match the English words with their Japanese translations.
   - Requires students to consider advantages AND disadvantages
   - References concerns or issues from the article
   - Encourages analytical thinking about real-world implications
+  - **IMPORTANT:** Include sentence starters to help students construct their responses
+  - Focus on helping students discuss opinions with peers and compose sentences with reasons
 
 **Example prompts:**
 - "Do you think [technology/practice from article] should be used in [context]? What are the advantages and disadvantages? Consider the concerns mentioned in the article and explain your reasoning."
 - "How do you feel about [issue from article]? What are the potential benefits and risks?"
+
+**Format with Sentence Starters:**
+```
+[Open-ended question about the topic]
+
+Use these sentence starters to help you express your opinion:
+- I agree with the opinion that _____________ because _____________.
+- I don't agree with the opinion that _____________ because _____________.
+- I think _____________ because _____________.
+- One advantage is _____________.
+- One disadvantage is _____________.
+```
 
 ---
 
@@ -205,6 +219,13 @@ Listen to the article again and circle **T** (True) or **F** (False).
 ### Part 5: Critical Thinking
 
 [Open-ended question about the topic]
+
+Use these sentence starters to help you express your opinion:
+- I agree with the opinion that _____________ because _____________.
+- I don't agree with the opinion that _____________ because _____________.
+- I think _____________ because _____________.
+- One advantage is _____________.
+- One disadvantage is _____________.
 ```
 
 ---
