@@ -114,7 +114,8 @@ Instead of traditional teacher lectures, students will:
 
 **Minutes 1-10: Introduction**
 - Teacher explains project
-- Groups receive topic assignments
+- Form groups randomly
+- **Randomly assign topics to each group** (draw from hat or use random number generator)
 - Distribute worksheet and materials
 - Assign roles within groups
 
@@ -122,23 +123,23 @@ Instead of traditional teacher lectures, students will:
 - Research Leader guides team to reliable sources
 - All members search for information
 - Note-Taker records key findings
-- Focus: Find 20-25 interesting facts about your topic
+- Focus: Find 12-15 interesting facts about your topic
 
 **Minutes 31-50: Curate Information**
 - Discuss which facts are most important
 - Decide what other students NEED to know
-- Select 15-20 facts to turn into questions
+- Select 10 facts to turn into questions
 - Organize information by importance
 
 **Minutes 51-60: Begin Planning Table**
 - Table Organizer starts filling in the planning table
-- Group decides on first 5-10 questions
+- Group decides on first 5 questions
 - Quality Checker reviews for clarity
 
 ### Session 2: Question Creation (60 minutes)
 
 **Minutes 1-20: Complete Planning Table**
-- Finish writing all 15-20 questions
+- Finish writing all 10 questions
 - Write 4 answer choices for each (1 correct, 3 wrong)
 - Note which images or visuals would help
 - Quality Checker reviews each question
@@ -210,9 +211,9 @@ Instead of traditional teacher lectures, students will:
 
 ### Minimum Requirements
 Each group's Kahoot must have:
-- **15-20 questions** minimum
+- **10 questions** exactly
 - **4 answer choices** per question (1 correct, 3 incorrect)
-- **At least 10 images** throughout the quiz
+- **At least 5 images** throughout the quiz
 - **Mix of question types:** Easy, medium, and challenging
 - **Varied formats:** True/false, multiple choice, identification
 - **Time limits:** 20-30 seconds per question (adjust based on difficulty)
@@ -237,7 +238,7 @@ Each group's Kahoot must have:
 - Content is relevant and useful for the trip (15 pts)
 
 **Kahoot Quality (30 points)**
-- Meets minimum requirements (15-20 questions, images) (10 pts)
+- Meets minimum requirements (10 questions, 5+ images) (10 pts)
 - Questions are clear, interesting, and well-written (10 pts)
 - Difficulty is appropriate and varied (10 pts)
 
@@ -324,7 +325,7 @@ Each group's Kahoot must have:
 - **Solution:** Clear role assignments; rotate computer/paper tasks
 
 **Challenge:** Running out of time
-- **Solution:** Assign some research as homework; prioritize completing 15 questions minimum
+- **Solution:** Assign some research as homework; prioritize completing 10 questions
 
 ### Differentiation Strategies
 - **Stronger students:** Can be Research Leaders or Quality Checkers
@@ -343,7 +344,8 @@ Each group's Kahoot must have:
 - Practice finding reliable sources
 
 ### Week 3: Session 1 - Research & Planning
-- Form groups and assign topics
+- Form groups randomly
+- **Randomly assign topics** to each group
 - Distribute worksheets
 - Conduct research
 - Begin planning table

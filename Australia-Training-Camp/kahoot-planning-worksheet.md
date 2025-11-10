@@ -29,7 +29,7 @@
 1. リサーチリーダーが信頼できる情報源を見つける
 2. 全員で情報を検索する
 3. ノートテイカーが重要な事実を紙に記録する
-4. 20〜25個の興味深い事実を見つけることを目指す
+4. 12〜15個の興味深い事実を見つけることを目指す
 
 **使用する推奨ウェブサイト:**
 - australia.com (公式観光サイト)
@@ -46,7 +46,7 @@
 1. グループで見つけた事実について話し合う
 2. どの事実が最も重要かを決める
 3. 他の生徒が知っておくべき情報を選ぶ
-4. 15〜20個の事実を選び、質問に変える準備をする
+4. 10個の事実を選び、質問に変える準備をする
 
 **質問を作る時のポイント:**
 - オーストラリア旅行で実際に役立つ情報か？
@@ -198,71 +198,6 @@
       <td style="border: 2px solid #333; padding: 10px; height: 80px; text-align: center;">□ Easy<br>□ Medium<br>□ Hard</td>
       <td style="border: 2px solid #333; padding: 10px; height: 80px; text-align: center;"></td>
     </tr>
-    <tr>
-      <td style="border: 2px solid #333; padding: 10px; height: 80px; text-align: center;">11</td>
-      <td style="border: 2px solid #333; padding: 10px; height: 80px;"></td>
-      <td style="border: 2px solid #333; padding: 10px; height: 80px;"></td>
-      <td style="border: 2px solid #333; padding: 10px; height: 80px;">1.<br><br>2.<br><br>3.</td>
-      <td style="border: 2px solid #333; padding: 10px; height: 80px;"></td>
-      <td style="border: 2px solid #333; padding: 10px; height: 80px; text-align: center;">□ Easy<br>□ Medium<br>□ Hard</td>
-      <td style="border: 2px solid #333; padding: 10px; height: 80px; text-align: center;"></td>
-    </tr>
-    <tr>
-      <td style="border: 2px solid #333; padding: 10px; height: 80px; text-align: center;">12</td>
-      <td style="border: 2px solid #333; padding: 10px; height: 80px;"></td>
-      <td style="border: 2px solid #333; padding: 10px; height: 80px;"></td>
-      <td style="border: 2px solid #333; padding: 10px; height: 80px;">1.<br><br>2.<br><br>3.</td>
-      <td style="border: 2px solid #333; padding: 10px; height: 80px;"></td>
-      <td style="border: 2px solid #333; padding: 10px; height: 80px; text-align: center;">□ Easy<br>□ Medium<br>□ Hard</td>
-      <td style="border: 2px solid #333; padding: 10px; height: 80px; text-align: center;"></td>
-    </tr>
-    <tr>
-      <td style="border: 2px solid #333; padding: 10px; height: 80px; text-align: center;">13</td>
-      <td style="border: 2px solid #333; padding: 10px; height: 80px;"></td>
-      <td style="border: 2px solid #333; padding: 10px; height: 80px;"></td>
-      <td style="border: 2px solid #333; padding: 10px; height: 80px;">1.<br><br>2.<br><br>3.</td>
-      <td style="border: 2px solid #333; padding: 10px; height: 80px;"></td>
-      <td style="border: 2px solid #333; padding: 10px; height: 80px; text-align: center;">□ Easy<br>□ Medium<br>□ Hard</td>
-      <td style="border: 2px solid #333; padding: 10px; height: 80px; text-align: center;"></td>
-    </tr>
-    <tr>
-      <td style="border: 2px solid #333; padding: 10px; height: 80px; text-align: center;">14</td>
-      <td style="border: 2px solid #333; padding: 10px; height: 80px;"></td>
-      <td style="border: 2px solid #333; padding: 10px; height: 80px;"></td>
-      <td style="border: 2px solid #333; padding: 10px; height: 80px;">1.<br><br>2.<br><br>3.</td>
-      <td style="border: 2px solid #333; padding: 10px; height: 80px;"></td>
-      <td style="border: 2px solid #333; padding: 10px; height: 80px; text-align: center;">□ Easy<br>□ Medium<br>□ Hard</td>
-      <td style="border: 2px solid #333; padding: 10px; height: 80px; text-align: center;"></td>
-    </tr>
-    <tr>
-      <td style="border: 2px solid #333; padding: 10px; height: 80px; text-align: center;">15</td>
-      <td style="border: 2px solid #333; padding: 10px; height: 80px;"></td>
-      <td style="border: 2px solid #333; padding: 10px; height: 80px;"></td>
-      <td style="border: 2px solid #333; padding: 10px; height: 80px;">1.<br><br>2.<br><br>3.</td>
-      <td style="border: 2px solid #333; padding: 10px; height: 80px;"></td>
-      <td style="border: 2px solid #333; padding: 10px; height: 80px; text-align: center;">□ Easy<br>□ Medium<br>□ Hard</td>
-      <td style="border: 2px solid #333; padding: 10px; height: 80px; text-align: center;"></td>
-    </tr>
-    <tr style="background-color: #f0f0f0;">
-      <td style="border: 2px solid #333; padding: 10px; height: 80px; text-align: center;">16</td>
-      <td style="border: 2px solid #333; padding: 10px; height: 80px;" colspan="6"><em>オプション / Optional (if you want more than 15 questions)</em></td>
-    </tr>
-    <tr>
-      <td style="border: 2px solid #333; padding: 10px; height: 80px; text-align: center;">17</td>
-      <td style="border: 2px solid #333; padding: 10px; height: 80px;" colspan="6"><em>オプション / Optional</em></td>
-    </tr>
-    <tr>
-      <td style="border: 2px solid #333; padding: 10px; height: 80px; text-align: center;">18</td>
-      <td style="border: 2px solid #333; padding: 10px; height: 80px;" colspan="6"><em>オプション / Optional</em></td>
-    </tr>
-    <tr>
-      <td style="border: 2px solid #333; padding: 10px; height: 80px; text-align: center;">19</td>
-      <td style="border: 2px solid #333; padding: 10px; height: 80px;" colspan="6"><em>オプション / Optional</em></td>
-    </tr>
-    <tr>
-      <td style="border: 2px solid #333; padding: 10px; height: 80px; text-align: center;">20</td>
-      <td style="border: 2px solid #333; padding: 10px; height: 80px;" colspan="6"><em>オプション / Optional</em></td>
-    </tr>
   </tbody>
 </table>
 
@@ -273,14 +208,14 @@
 ### 提出前に確認すること / Before Submission:
 
 **内容の質 / Content Quality:**
-- [ ] 15〜20個の質問がある (15-20 questions completed)
+- [ ] 10個の質問がある (10 questions completed)
 - [ ] すべての質問が明確で理解しやすい (All questions are clear and easy to understand)
 - [ ] 正解が正しい (Correct answers are accurate)
 - [ ] 不正解の選択肢がもっともらしい (Wrong answers are plausible)
 - [ ] 情報が正確で最新である (Information is accurate and current)
 
 **Kahootの質 / Kahoot Quality:**
-- [ ] 10枚以上の画像を含む (At least 10 images included)
+- [ ] 5枚以上の画像を含む (At least 5 images included)
 - [ ] 難易度が混ざっている（簡単、普通、難しい） (Mix of easy, medium, hard questions)
 - [ ] 制限時間が適切に設定されている (Time limits are appropriate)
 - [ ] スペルと文法のミスがない (No spelling or grammar mistakes)
