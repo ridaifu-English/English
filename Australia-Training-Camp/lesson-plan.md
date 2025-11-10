@@ -34,41 +34,24 @@ Instead of traditional teacher lectures, students will:
 
 ### Topic Assignments
 
-**Group 1: Geography, Climate & March Weather**
-- Australian geography and states
-- Climate zones and March weather specifics
-- What to pack for late summer/early autumn
-- Major cities and landmarks
+**Topics will be randomly assigned to groups. Students must decide what aspects of their topic are most important to research.**
 
-**Group 2: Indigenous Culture & History**
-- Aboriginal and Torres Strait Islander peoples
-- Dreamtime and cultural traditions
-- Respectful practices
-- Important historical events
+**Group 1: Australian Geography and Weather**
 
-**Group 3: Australian Slang & Communication**
-- Australian accent features
-- Common slang and expressions
-- Shortened words
-- Communication style and cultural humor
+**Group 2: Indigenous Australian Culture**
 
-**Group 4: Food, Dining & Social Customs**
-- Traditional Australian foods
-- Dining etiquette
-- BBQ and coffee culture
-- Social customs and values
+**Group 3: Australian Language and Communication**
 
-**Group 5: Sports, Beach Culture & Entertainment**
-- Popular sports (AFL, cricket, rugby)
-- Beach safety and culture
-- Leisure activities
-- Australian music and film
+**Group 4: Australian Food and Lifestyle**
 
-**Group 6: Safety, Transport & Practical Info**
-- Emergency numbers and safety
-- Public transportation
-- Money and banking
-- Health and travel preparation
+**Group 5: Australian Sports and Recreation**
+
+**Group 6: Living and Traveling in Australia**
+
+**Note for Students:** These topics are intentionally broad. Your group must:
+- Decide what specific aspects to focus on
+- Determine what information is most useful for the training camp
+- Choose what your classmates should know about your topic
 
 ---
 
@@ -125,8 +108,9 @@ Instead of traditional teacher lectures, students will:
 - Note-Taker records key findings
 - Focus: Find 12-15 interesting facts about your topic
 
-**Minutes 31-50: Curate Information**
-- Discuss which facts are most important
+**Minutes 31-50: Curate Information & Decide Focus**
+- **First:** Discuss what aspects of your topic to focus on (What's most important for the trip?)
+- Decide which facts are most useful for classmates
 - Decide what other students NEED to know
 - Select 10 facts to turn into questions
 - Organize information by importance
@@ -270,37 +254,33 @@ Each group's Kahoot must have:
 - **Translate:** Quick translations
 - **Kahoot:** Create and play quizzes
 
-### Research Websites by Topic
+### Starting Points for Research (Optional)
+
+**Important:** These are just suggestions. Your group should search for information based on what YOU think is important!
 
 **Group 1 (Geography & Weather):**
-- australia.com/geography
+- australia.com
 - bom.gov.au (Bureau of Meteorology)
-- geoscience.gov.au
 
 **Group 2 (Indigenous Culture):**
 - indigenous.gov.au
 - australianstogether.org.au
-- aiatsis.gov.au
 
-**Group 3 (Slang & Communication):**
-- Australian slang dictionaries online
-- YouTube: "Australian accent" tutorials
-- "Speak Aussie" language guides
+**Group 3 (Language & Communication):**
+- Search: "Australian English"
+- Search: "Australian communication style"
 
-**Group 4 (Food & Customs):**
-- australia.com/food-and-wine
-- taste.com.au (Australian recipes)
-- "Australian etiquette" guides
+**Group 4 (Food & Lifestyle):**
+- australia.com
+- Search: "Australian culture"
 
-**Group 5 (Sports & Entertainment):**
-- afl.com.au (Australian Football)
-- beachsafe.org.au (Beach safety)
-- australia.com/things-to-do
+**Group 5 (Sports & Recreation):**
+- australia.com
+- Search: "Australian sports"
 
-**Group 6 (Safety & Transport):**
-- australia.gov.au/travel
-- Transport websites by city
-- smartraveller.gov.au (travel advice)
+**Group 6 (Living & Traveling):**
+- australia.gov.au
+- Search: "travel Australia tips"
 
 ---
 
