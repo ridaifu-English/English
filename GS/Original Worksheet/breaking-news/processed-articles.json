@@ -1,0 +1,29 @@
+{
+  "articles": [
+    {
+      "folder": "ai-fashion-models",
+      "title": "AI Fashion Models",
+      "fetched_date": "2025-11-04"
+    },
+    {
+      "folder": "drug-resistant-superbugs",
+      "title": "Drug-Resistant Superbugs",
+      "fetched_date": "2025-11-07"
+    },
+    {
+      "folder": "food-and-body-smell",
+      "title": "Food and Body Smell",
+      "fetched_date": "2025-11-04"
+    },
+    {
+      "folder": "sushi",
+      "title": "Sushi",
+      "fetched_date": "2025-11-04"
+    },
+    {
+      "folder": "uk-spelling-mistake",
+      "title": "UK Opposition Party Spells 'Britain' Incorrectly",
+      "fetched_date": "2025-11-12"
+    }
+  ]
+}

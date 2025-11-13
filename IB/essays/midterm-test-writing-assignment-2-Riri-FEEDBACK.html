@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Essay Feedback for Riri</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            line-height: 1.8;
+            background-color: #f9f9f9;
+        }
+        h1 {
+            color: #333;
+            border-bottom: 3px solid #333;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #555;
+            margin-top: 30px;
+        }
+        .legend {
+            background-color: #fff;
+            padding: 15px;
+            border-left: 4px solid #333;
+            margin: 20px 0;
+        }
+        .legend p {
+            margin: 5px 0;
+        }
+        .essay-box {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin: 20px 0;
+        }
+        .essay-text {
+            font-size: 1.1em;
+            line-height: 2;
+        }
+        .spelling {
+            color: red;
+            font-weight: bold;
+            background-color: #ffe6e6;
+            padding: 2px 4px;
+            border-radius: 3px;
+        }
+        .grammar {
+            color: blue;
+            font-weight: bold;
+            background-color: #e6f2ff;
+            padding: 2px 4px;
+            border-radius: 3px;
+        }
+        .paraphrase {
+            color: green;
+            font-weight: bold;
+            background-color: #e6ffe6;
+            padding: 2px 4px;
+            border-radius: 3px;
+        }
+        .corrections {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .correction-item {
+            margin: 15px 0;
+            padding: 10px;
+            background-color: #f5f5f5;
+            border-radius: 5px;
+        }
+        .corrected-version {
+            background-color: #e8f5e9;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #4caf50;
+        }
+    </style>
+</head>
+<body>
+    <h2>Original Essay with Markup:</h2>
+    <div class="essay-box">
+        <div class="essay-text">
+            <p>I think <span class="grammar">farmer</span> should grow vegetables and fruits without chemicals.</p>
+
+            <p><span class="grammar">Because</span> I think using chemicals when growing vegetables and fruits <span class="grammar">is bad effect</span> for people's health and <span class="grammar">environment</span>.</p>
+
+            <p>For example, it may cause <span class="paraphrase">illness to people</span> and harm to water and nature.</p>
+
+            <p>However, the number of <span class="grammar">farmers use</span> chemicals is increasing.</p>
+
+            <p><span class="spelling">Therefor</span>, I think <span class="grammar">farmer</span> shouldn't use chemicals <span class="grammar">to theirs</span>.</p>
+        </div>
+    </div>
+
+    <h2>Suggested Corrected Version:</h2>
+    <div class="corrected-version">
+        <p>I think <strong>farmers</strong> should grow vegetables and fruits without chemicals. <strong>This is because</strong> I think using chemicals when growing vegetables and fruits <strong>has a bad effect</strong> on people's health and <strong>the</strong> environment. For example, it may cause <strong>illnesses in people</strong> and harm to water and nature. However, the number of <strong>farmers who use</strong> chemicals is increasing. <strong>Therefore</strong>, I think <strong>farmers</strong> shouldn't use chemicals <strong>in their farming</strong>.</p>
+    </div>
+
+</body>
+</html>

@@ -6,27 +6,47 @@
 
 **RSS Feed:** https://breakingnewsenglish.com/bne.xml
 
+### Duplicate Prevention:
+
+**IMPORTANT: Check before fetching to avoid duplicate articles**
+
+1. **Read the tracking file** - Check `processed-articles.json` in the breaking-news directory
+2. **Verify the article hasn't been processed** - Check if the article folder name or title already exists
+3. **Only proceed if it's a new article** - If the article is already in the JSON file, skip it and select a different article
+
 ### How to Fetch Articles Programmatically:
 
-1. **Fetch the RSS Feed** - Use the RSS feed URL to get the latest articles:
+1. **Check for duplicates first** - Read `processed-articles.json` to see which articles have already been processed
+2. **Fetch the RSS Feed** - Use the RSS feed URL to get the latest articles:
    - URL: `https://breakingnewsenglish.com/bne.xml`
    - This feed provides the most recent articles with their titles and links
    - Articles are typically updated every three days
 
-2. **Access Article from RSS Feed** - Once you have the article URL from the RSS feed:
+3. **Select an unprocessed article** - Choose an article from the RSS feed that is NOT in `processed-articles.json`
+
+4. **Access Article from RSS Feed** - Once you have the article URL from the RSS feed:
    - Example URL format: `https://breakingnewsenglish.com/YYMM/YYMMDD-article-name.html`
    - This gives you access to the main article page
 
-3. **Get Level 0 Content** - Navigate to the Level 0 version for beginner learners:
+5. **Get Level 0 Content** - Navigate to the Level 0 version for beginner learners:
    - Level 0 URL format: `https://breakingnewsenglish.com/YYMM/YYMMDD-article-name-0.html`
    - Simply add `-0` before `.html` to access the easiest level
    - Level 0 uses basic vocabulary and short sentences suitable for beginner English learners
 
-4. **Extract the Article Text** - Use WebFetch or similar tools to extract the full article text from the Level 0 page
+6. **Extract the Article Text** - Use WebFetch or similar tools to extract the full article text from the Level 0 page
 
-5. **Create Folder Structure** - Create a folder for the article:
+7. **Create Folder Structure** - Create a folder for the article:
    - Format: `breaking-news/[article-topic-name]/`
    - Example: `breaking-news/food-and-body-smell/`
+
+8. **Update tracking file** - After successfully creating all files, add the article to `processed-articles.json`:
+   ```json
+   {
+     "folder": "[article-topic-name]",
+     "title": "[Article Title]",
+     "fetched_date": "[YYYY-MM-DD]"
+   }
+   ```
 
 ### Alternative Method:
 
@@ -318,14 +338,16 @@ breaking-news/
 ## Usage
 
 To use this prompt:
-1. **Fetch the RSS feed** at https://breakingnewsenglish.com/bne.xml to see available articles
-2. **Select an article** from the feed
-3. **Access Level 0** by adding `-0` to the article URL (before `.html`)
-4. **Extract the article text** using WebFetch or manual copy
-5. **Create a folder** for the article in the breaking-news directory
-6. **Provide the article text** and specify: "Create a worksheet based on this breaking news article using the breaking-news-prompt.md format"
-7. **Save 3 files** in the article folder:
+1. **Check for duplicates first** - Read `processed-articles.json` to see which articles have already been processed
+2. **Fetch the RSS feed** at https://breakingnewsenglish.com/bne.xml to see available articles
+3. **Select an unprocessed article** from the feed (not in processed-articles.json)
+4. **Access Level 0** by adding `-0` to the article URL (before `.html`)
+5. **Extract the article text** using WebFetch or manual copy
+6. **Create a folder** for the article in the breaking-news directory
+7. **Provide the article text** and specify: "Create a worksheet based on this breaking news article using the breaking-news-prompt.md format"
+8. **Save 3 files** in the article folder:
    - `[article-topic-name]-script.md` - Raw article text with no changes
    - `[article-topic-name]-worksheet.md` - Student worksheet
    - `[article-topic-name]-answer.md` - Answer key
-8. The worksheet and answer key will follow this consistent format
+9. **Update processed-articles.json** - Add the new article entry with folder name, title, and fetched date
+10. The worksheet and answer key will follow this consistent format
